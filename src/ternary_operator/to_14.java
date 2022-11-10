@@ -1,7 +1,27 @@
+/*Римская система счисления
+Дано число X. Требуется перевести это число в римскую систему счисления.
+Входные данные
+Дано число X в десятичной системе счисления (1  ≤  X  ≤  100).
+Выходные данные
+Выведите X в римской системе счисления.
+
+Sample Input 1:
+4
+Sample Output 1:
+IV
+
+Sample Input 2:
+13
+Sample Output 2:
+XIII
+
+Sample Input 3:
+54
+Sample Output 3:
+LIV
+*/
 package ternary_operator;
-
 import java.util.Scanner;
-
 public class to_14 {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

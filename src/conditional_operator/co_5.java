@@ -1,3 +1,5 @@
+package conditional_operator;
+
 import java.util.Scanner;
 
 /*Красная Шапочка

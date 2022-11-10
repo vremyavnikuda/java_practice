@@ -1,3 +1,5 @@
+package conditional_operator;
+
 /* Задача из публичного доступа */
 public class co_2 {
     public static void main(String[] args) {

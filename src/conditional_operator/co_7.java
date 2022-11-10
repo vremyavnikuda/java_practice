@@ -1,4 +1,4 @@
-/*Большее из 3
+package conditional_operator;/*Большее из 3
 Вводится 3 целых числа, выведите большее из них
 
 Sample Input:

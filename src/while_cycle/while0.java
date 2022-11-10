@@ -1,3 +1,7 @@
+/*
+Произвольная задача из интернета
+*/
+
 package while_cycle;
 
 public class while0 {

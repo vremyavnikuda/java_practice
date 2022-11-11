@@ -16,6 +16,12 @@ Sample Output:
 package while_cycle;
 import java.util.Scanner;
 public class while1 {
+    /*
+    Свойства натуральных чисел
+Ноль, нецелые (дробные) и отрицательные числа к натуральным не относятся. Например: -5, -20.3, 3 / 7 , 0, 4.7, 18 2 / 3 и др
+Наименьшим натуральным числом является единица (согласно свойству выше)
+Так как натуральный ряд бесконечен, то наибольшего числа не существует
+    */
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         int q = sc.nextInt();

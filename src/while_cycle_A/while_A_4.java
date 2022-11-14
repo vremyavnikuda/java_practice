@@ -32,7 +32,6 @@ public class while_A_4 {
             int w=q;
             q=sc.nextInt();
             q1+=w;
-
         }
         System.out.println(q1);
     }

@@ -17,9 +17,14 @@ public class cf2 {
         Scanner sc =new Scanner(System.in);
         int a =sc.nextInt(),b=sc.nextInt();//вводим 2 целых числа
         int ab=0;//сумма этих чисел
+<<<<<<< HEAD
         for (int i=a;i<=b;i++){/*если i=a и при этом i<=b дабавляем +1
         изменение*/
             ab+=i;//ab изменить на шаг i
+=======
+        for (int i=a;i<=b;i++){
+            ab+=i;
+>>>>>>> main
         }
         System.out.print(ab);
     }

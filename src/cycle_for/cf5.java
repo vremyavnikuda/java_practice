@@ -24,7 +24,7 @@ public class cf5 {
     public static void main (String[]args){
         Scanner sc =new Scanner(System.in);
         //переменная ввода данных
-<<<<<<< HEAD
+/*
         //вводим модификатор и тип MAX MIN
         int q = sc.nextInt();int min = Integer.MAX_VALUE,max=Integer.MIN_VALUE;
         for (int i=0;i<q;i++){
@@ -35,7 +35,7 @@ public class cf5 {
             if (q1<min)min=q1;
         }
         //выводим результат
-=======
+  */
         int q = sc.nextInt();int min = Integer.MAX_VALUE,max=Integer.MIN_VALUE;
         /*
         int q_min=0;//минимум
@@ -63,7 +63,7 @@ public class cf5 {
             if (q1>max)max=q1;
             if (q1<min)min=q1;
         }
->>>>>>> main
+
         System.out.println(min);
         System.out.println(max);
     }

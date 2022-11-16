@@ -1,7 +1,26 @@
+/*
+Найдите Куб
+Пользователь вводит слова до тех пор, пока не введёт "СТОП".
+Необходимо выяснить, было ли среди введённых слов слово "Куб".
+Если да, то выведите "YES", если нет, то  "NO".
+
+Sample Input:
+Привет
+Я
+люблю
+рисовать
+круги
+и
+Куб
+Это
+Прикольно)
+СТОП
+
+Sample Output:
+YES
+*/
 package cycle_for;
-
 import java.util.Scanner;
-
 public class cf4 {
     public static void main (String[]args){
         /*Scanner sc = new Scanner(System.in);

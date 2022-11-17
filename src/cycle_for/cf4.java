@@ -51,7 +51,7 @@ public class cf4 {
                 else{//иначе
                     System.out.println("NO");//"NO"
                 }
-                break;//оставнавливаем цикл
+                break;//останавливаем цикл
             }
         }
     }

@@ -9,7 +9,7 @@ public class cf_A_4 {
         //условие (если i==1 и i<10,тогда к i+2
         for (int i=1;i<10;i+=2){
             //вывести результат
-            System.out.println(i+" ");
+            System.out.print(i+" ");
         }
     }
 }

@@ -1,3 +1,12 @@
+/*
+Нечётные цифры
+Составьте программу, которая в одну строку через пробел выводит все нечетные цифры.
+
+Sample Input:
+
+Sample Output:
+1 3 5 7 9
+*/
 package cycle_for_A;
 
 import java.util.Scanner;

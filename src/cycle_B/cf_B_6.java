@@ -1,5 +1,16 @@
-package cycle_B;
+/*
+Другая система счисления
+Вводятся целые неотрицательные числа n и k, причём 2 < k < 10.
+Переведите число n из десятичной системы счисления в систему счисления с основанием k.
 
+Sample Input:
+6
+2
+
+Sample Output:
+110
+*/
+package cycle_B;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;

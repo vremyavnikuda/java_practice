@@ -28,8 +28,9 @@ public class tda_1 {
             sum_arrays[i]=array_1[i]+array_2[i];
         }
         //Вывести массив [sum_arrays]
-        for (int i =0;i<sum_arrays.length;i++){
-            System.out.println(sum_arrays[i]);
+
+        for (double sum_array : sum_arrays) {
+            System.out.println(sum_array);
         }
     }
 }

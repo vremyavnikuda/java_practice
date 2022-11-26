@@ -1,7 +1,24 @@
+/*
+Что он нам несёт?
+Вводится натуральное число n. Затем вводится двумерный массив размером n*n.
+Отобразите его относительно главной диагонали (из левого верхнего угла до правого нижнего) и
+выведите на экран (через пробел).
+
+Sample Input:
+4
+1 2 3 8
+4 6 7 8
+2 6 3 4
+5 9 3 0
+
+Sample Output:
+1 4 2 5
+2 6 6 9
+3 7 3 3
+8 8 4 0
+ */
 package two_dimensional_arrays;
-
 import java.util.Scanner;
-
 public class tda_10 {
     public static void main (String[]args){
         Scanner in =new Scanner(System.in);

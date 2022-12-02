@@ -18,9 +18,9 @@ public class sa_1 {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         //получаем строку для поиска
-        String text= sc.nextLine();
+        String text= sc.nextLine().toUpperCase();
         //получаем букву которую необходимо найти
-        String text1=sc.nextLine();
+        String text1=sc.nextLine().toUpperCase();
         //задаем счетчик сколько раз найдена буква в строке
         int count=0;
         //преобразовываем строку в массив

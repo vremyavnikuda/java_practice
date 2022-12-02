@@ -8,7 +8,7 @@ public class arrst_6 {
         //Задаем длинну массива
         int n= in.nextInt();
         //Инициализируема массив
-        int array[]=new int[n];
+        int[] array =new int[n];
 
         //Создаем условие заполнение массива
         for (int i=0;i<array.length;i++){

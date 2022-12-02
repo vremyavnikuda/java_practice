@@ -68,11 +68,11 @@ public class cf10 {
         }
         //блок вывода информации
         //если q==true:выводим каким по счету будет строка "Куб"
-        if (q==true){
+        if (q){
             System.out.println(q_sum);
         }
         //если условия не выполнились,то выводим сообщение "No"
-        else if (q==false){
+        else if (!q){
             System.out.println("NO");
         }
     }

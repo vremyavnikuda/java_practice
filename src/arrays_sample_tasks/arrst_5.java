@@ -31,7 +31,7 @@ public class arrst_5 {
         //Указываем длинну массива
         int arr_length= in.nextInt();
         //Инициализируем массив
-        int array[]=new int[arr_length];
+        int[] array =new int[arr_length];
         //Задаем условие заполнения массива
         for (int i=0;i<array.length;i++){
             int a= in.nextInt();

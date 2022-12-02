@@ -72,7 +72,7 @@ public class mfs7 {
             }
         }
         //если true
-        if (isIP==true){
+        if (isIP){
             System.out.print("YES");
         }else //иначе =>
             System.out.print("NO");

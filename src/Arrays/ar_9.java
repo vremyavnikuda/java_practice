@@ -30,7 +30,7 @@ public class ar_9 {
         int a = in.nextInt();
         int b = in.nextInt();
         //создаем массив в котором будут храниться кубы чисел от (q) до (w)
-        int arrays[] =new int [b-a+1];
+        int[] arrays =new int [b-a+1];
         //заполняем массив кубами чисел от (a) до (b)
         for(int i=0;i< arrays.length;i++){
             //возводим в куб каждое число от a до b, поочередно

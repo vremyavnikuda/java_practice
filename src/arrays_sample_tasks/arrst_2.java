@@ -26,7 +26,7 @@ public class arrst_2 {
         //длинна массива
         int n= sc.nextInt();
         //инициализация массива
-        int array[]=new int[n];
+        int[] array =new int[n];
         //условие заполнение массива
         for(int i=0;i<array.length;i++){
             //условие изменение массива

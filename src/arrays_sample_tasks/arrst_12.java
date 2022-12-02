@@ -29,7 +29,7 @@ public class arrst_12 {
         Scanner sc=new Scanner(System.in);
         /////////////////////////////массив
         int size= sc.nextInt();
-        int array[]=new int[size];
+        int[] array =new int[size];
         for (int i =0;i<size;i++){
             array[i]= sc.nextInt();
         }

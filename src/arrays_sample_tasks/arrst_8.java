@@ -26,7 +26,7 @@ public class arrst_8 {
         //задаем длинну массива
         int number= sc.nextInt();
         //инициализируем массив
-        int array[]=new int[number];
+        int[] array =new int[number];
         //создаем условие заполнения массива
         for (int i=0;i<array.length;i++){
             //заполняем массив

@@ -32,7 +32,7 @@ public class arrst_4 {
         //Указывае длинну массива
         int n= in.nextInt();
         //Инициализируем массив
-        int array[]=new int[n];
+        int[] array =new int[n];
         //Задаем условие заполнение массива
         for (int i =0;i<array.length;i++){
             //Заполняем массив

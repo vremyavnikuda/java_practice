@@ -1,4 +1,4 @@
-package offer_task;
+/*package offer_task;
 public class deepEquals {
     public static boolean deepEquals(Object a, Object b) {
         if (a == b)
@@ -34,4 +34,4 @@ public class deepEquals {
             eq = e1.equals(e2);
         return eq;
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package offer_task;
+/*package offer_task;
 
 import java.util.Optional;
 
@@ -22,4 +22,4 @@ public class Account {
         return value != null ? value : other;
     }
 }
-
+*/

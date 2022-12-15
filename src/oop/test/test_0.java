@@ -1,4 +1,4 @@
-package oop;
+package oop.test;
 
 public class test_0 {
     //точка входа в программу

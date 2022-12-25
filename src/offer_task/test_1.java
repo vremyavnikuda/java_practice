@@ -7,7 +7,7 @@ public class test_1 {
         sb.append("Christmas ");
         sb.append("I gave you my heart");
         String res = sb.toString().intern();
-        
+
 
         System.out.println(res == "Last Christmas I gave you my heart");
     }

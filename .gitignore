@@ -27,5 +27,8 @@ status.txt
 hs_err_pid*
 replay_pid*
 
+#configuration fleet ignore
+/run.json
+/settings.json
 #MERGE_MSG
 

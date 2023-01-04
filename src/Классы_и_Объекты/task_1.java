@@ -10,12 +10,6 @@ public class task_1 {
 
         Person sam = new Person("Sam", 25);//вызов третьего конструктора с двумя параметрами
         sam.displayInfo();
-
-        //КОНСТРУКТОР
-        //изменяем имя и возрасты
-        tom.name = "Tom";
-        tom.age = 34;
-        tom.displayInfo();
     }
 
     //класс Person
@@ -23,19 +17,28 @@ public class task_1 {
         String name;//имя
         int age;//возраст
 
+
+        /*Получаем ссылку на текущий экземпляр класса через ключевое слово this.*/
         Person() {
-            name = "Undefined";
-            age = 18;
+            this("Undefined", 18);
+        }
+        /*
+        В инициализатор можем поместить общий код для всех конструкторов
+        Начало блока инициализатора
+        {
+            name="Undefined";
+            age=18;
+        }
+        Конец блока инициализатора
+        */
+
+        Person(String name) {
+            this(name, 18);
         }
 
-        Person(String n) {
-            name = n;
-            age = 18;
-        }
-
-        Person(String n, int a) {
-            name = n;
-            age = a;
+        Person(String name, int age) {
+            this.name = name;
+            this.age = age;
         }
 
         //выводим информацию в консоль

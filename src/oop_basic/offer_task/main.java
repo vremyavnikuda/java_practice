@@ -6,7 +6,7 @@ public class main {
         MoneyBox moneybox2=new MoneyBox(20,30,40,7,10);
 
         int vol;
-        
+
         vol = moneybox1.getVolume();
         System.out.println("Объем первой коробки равен " + vol);
         System.out.println("Вес первой коробки равен " + moneybox1.weight);

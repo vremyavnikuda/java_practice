@@ -38,4 +38,8 @@ public class Fish extends Animal{
         System.out.println("Bul-bul");
         System.out.println("--------------------------------");
     }
+    @Override
+    public  void display(){
+        System.out.println("I am "+getClass());
+    }
 }

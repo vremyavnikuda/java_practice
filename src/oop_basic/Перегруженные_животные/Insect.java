@@ -41,4 +41,8 @@ public class Insect extends Animal{
         System.out.println("Ggggg");
         System.out.println("--------------------------------");
     }
+    @Override
+    public  void display(){
+        System.out.println("I am "+getClass());
+    }
 }

@@ -40,4 +40,9 @@ public class Bird extends Animal{
         System.out.println("Chirik-Chirik");
         System.out.println("--------------------------------");
     }
+    //переопределение метода display()
+    @Override
+    public  void display(){
+        System.out.println("I am "+getClass());
+    }
 }

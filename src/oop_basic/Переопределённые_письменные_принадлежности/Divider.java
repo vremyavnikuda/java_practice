@@ -32,6 +32,6 @@ public class Divider extends WritingMaterials {
 
     //переопределение метода display()
     public void display(){
-        System.out.println("This is"+getClass());
+        System.out.println("This is "+getClass());
     }
 }

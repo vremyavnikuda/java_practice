@@ -71,7 +71,6 @@ public class WritingMaterials {
         }else {
             sb.append("Цвет: не указан").append(",");
         }
-
         if (length!=0){
             sb.append("Длина: ").append(length).append(",");
         }else {

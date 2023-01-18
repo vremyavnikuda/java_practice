@@ -1,14 +1,13 @@
 package oop_Инициализаторы_static_final.Инициализатор;
-
 public class Bird extends Animal {
     //зона обитания
     private String area;
+
     //улетает ли она зимовать
     private boolean winterFly;
     public Bird() {
         super();
     }
-
 
     //инициализатор
     static {
@@ -23,8 +22,6 @@ public class Bird extends Animal {
     */
 
     //Улетает ли она зимовать?
-
-
     public String isWinterFly() {
         if (winterFly==true){
             return "Улетает ли она зимовать: Да";
@@ -48,9 +45,11 @@ public class Bird extends Animal {
         System.out.println("Chirik-Chirik");
         System.out.println("--------------------------------");
     }
+
     //переопределение метода display()
     @Override
     public  void display(){
-        System.out.println("I am "+getClass());
+        //получаем название класса через getSimpleName()
+        System.out.println("I am "+ Bird.class.getSimpleName());
     }
 }

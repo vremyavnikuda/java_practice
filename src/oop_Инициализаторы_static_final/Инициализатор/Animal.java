@@ -1,5 +1,7 @@
 package oop_Инициализаторы_static_final.Инициализатор;
 
+import java.util.Stack;
+
 public class Animal {
     // определяем объекты класса
     String type;
@@ -13,8 +15,11 @@ public class Animal {
 
     //Статический метод и статическое свойство с описанием класса
     //которое может быть вызвано только у класса, но не у его объекта
-    static String description="description это свойство метода printDescription ,которые может быть вызвано только именем класса";
-
+    static String description="здесь должна быть информация с описанием класса и его методов ,а так же информация о " +
+            "взаимодействия с ними";
+    //статическое поле для хранения данных о кол-во созданных животных класса
+    static int animalCounter=0;
+    static int id;
     //инициализатор
     static {
         String name="Unknown";
@@ -24,6 +29,9 @@ public class Animal {
     //конструктор
     //создать животное с его типом и именем
     public Animal(){
+        //увеличиваем счетчик в конструкторе класса
+        animalCounter++;
+        id=animalCounter;
         this.type=type;
         this.name=name;
         //System.out.println("--------------------");
@@ -103,7 +111,7 @@ public class Animal {
 
     //Методы класса
     public void display(){
-        StringBuilder sb=new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         //условие работы метода display и исключениями(нет данных)
         if (type!=null){
             sb.append("Тип животного: ").append(type).append("\n");
@@ -123,30 +131,30 @@ public class Animal {
             sb.append("Возраст животного: ").append("Нет данных").append("\n");
         }
         //Умеет ли это животное летать?
-        if (isFly==true){
+        if (isFly){
             sb.append("Умеет ли это животное летать?: ").append("Да").append("\n");
         }
-        else if (isFly!=true || isFly!=false) {
+        else if (!isFly || isFly!=false) {
             sb.append("Умеет ли это животное летать?: ").append("Нет данных").append("\n");
         }
         else {
             sb.append("Умеет ли это животное летать?: ").append("Нет"+"\n");
         }
         //Умеет ли это животное ходить?
-        if (isWalk==true){
+        if (isWalk){
             sb.append("Умеет ли это животное ходить?: ").append("Да").append("\n");
         }
-        else if (isFly!=true || isFly!=false) {
+        else if (!isFly || isFly!=false) {
             sb.append("Умеет ли это животное ходить?: ").append("Нет данных").append("\n");
         }
         else {
             sb.append("Умеет ли это животное ходить?: ").append("Нет" + "\n");
         }
         //Умеет ли это животное плавать?
-        if (isSwim==true){
+        if (isSwim){
             sb.append("Умеет ли это животное плавать?: ").append("Да").append("\n");
         }
-        else if (isFly!=true || isFly!=false) {
+        else if (!isFly || isFly!=false) {
             sb.append("Умеет ли это животное плавать?: ").append("Нет данных").append("\n");
         }
         else {
@@ -180,7 +188,27 @@ public class Animal {
         }
         return weight;
     }
+
+    //метод printDescription() отображает информацию о классе и его методах
+    //а так же информация как с ними взаимодействовать
     public static void printDescription(){
         System.out.println(description);
+    }
+
+    //метод toString() который выводит подробную информацию
+    // о животном (данные по всем полям, включая порядковый номер)
+    @Override
+    public String toString(){
+        return "Animal {" +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", weight=" + weight +
+                ", day=" + day +
+                ", isFly=" + isFly +
+                ", isWalk=" + isWalk +
+                ", isSwim=" + isSwim +
+                ", id=" + id +
+                '}';
     }
 }

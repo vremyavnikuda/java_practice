@@ -48,6 +48,7 @@ public class Insect extends Animal {
     }
     @Override
     public  void display(){
-        System.out.println("I am "+getClass());
+        //получаем название класса через getSimpleName()
+        System.out.println("I am "+Insect.class.getSimpleName());
     }
 }

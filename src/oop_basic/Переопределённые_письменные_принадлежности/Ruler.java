@@ -34,6 +34,6 @@ public class Ruler extends WritingMaterials {
 
     //переопределение метода display()
     public void display(){
-        System.out.println("This is "+ Pen.class.getSimpleName());
+        System.out.println("This is "+ Ruler.class.getSimpleName());
     }
 }

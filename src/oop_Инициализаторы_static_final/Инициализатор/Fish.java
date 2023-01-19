@@ -1,12 +1,16 @@
 package oop_Инициализаторы_static_final.Инициализатор;
 
-public class Fish extends Animal {
+final class Fish extends Animal {
     //тип чешуи
     String squama;
     //умеет ли плавать против течения
     boolean upStreamSwim;
+    String description="Данный класс Fish и наследуется от класса Animal \nсодержит переменные типа String squama и boolean upStreamSwim\n"+
+            "так же он содержит статический инициализатор и методы\n"+
+            "{\npublic void bul_bul()\n"+"public  void display()\n"+"public void rename()\n}" ;
     public Fish() {
         super();
+        this.description=printDescription(description);
     }
 
     //инициализатор
@@ -48,5 +52,14 @@ public class Fish extends Animal {
     public  void display(){
         //получаем название класса через getSimpleName()
         System.out.println("I am "+Fish.class.getSimpleName());
+    }
+
+    //метод был переопределен (так как класс Fish получил ключевое слово "final")
+    public void rename(String Rename){
+        name=Rename;
+    }
+    public static String printDescription(String description){
+        System.out.println(description);
+        return description;
     }
 }

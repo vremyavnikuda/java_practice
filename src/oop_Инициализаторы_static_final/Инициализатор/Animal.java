@@ -189,9 +189,9 @@ public class Animal {
         return weight;
     }
 
-    //метод printDescription() отображает информацию о классе и его методах
+    //метод printDescription() отображает информацию о классе и его методах,
     //а так же информация как с ними взаимодействовать
-    public static void printDescription(){
+    public static void  printDescription(){
         System.out.println(description);
     }
 

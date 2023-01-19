@@ -5,6 +5,24 @@ class Main{
         Animal duck = new Animal("Утка", "Утя", 3, 5.8, true, true, true);
         duck.display();
         System.out.println(duck.toString());
+        duck.display();
+        duck.holiday();
+        duck.display();
+        duck.holiday(5);
+        duck.display();
+        duck.holiday(0.4);
+        duck.display();
+        duck.holiday(0.3, 2);
+        duck.display();
+        duck.rename("Утя-Утя");
+        duck.display();
+        System.out.println(duck.getAge());
+        System.out.println(duck.getName());
+        System.out.println(duck.getWeight());
+        System.out.println(duck.getType());
+        System.out.println(duck.isSwimm());
+        System.out.println(duck.isWalk());
+        System.out.println(duck.isFly());
 
         Bird b = new Bird();
         b.setName("Bob");
@@ -30,6 +48,10 @@ class Main{
         System.out.println(f.isUpStreamSwim());
         f.bul_bul();
         f.toString();
+        f.rename("Плавплавыч");
+        f.hashCode();
+        Fish.printDescription();
+        System.out.println(f.name);
 
         //вызываем метод toString() для получения информации и объекте
         //класса Animal

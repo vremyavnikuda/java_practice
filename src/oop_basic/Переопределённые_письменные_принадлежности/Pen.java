@@ -34,6 +34,6 @@ public class Pen extends WritingMaterials {
 
     //переопределение метода display()
     public void display(){
-        System.out.println("This is "+getClass());
+        System.out.println("This is "+Pen.class.getSimpleName());
     }
 }

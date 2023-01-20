@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_basic/письменные_принадлежности_3/WritingMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_basic/письменные_принадлежности_3/WritingMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_ education.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <workItem from="1674220207865" duration="14000" />
       <workItem from="1674220248077" duration="14000" />
       <workItem from="1674220398850" duration="199000" />
-      <workItem from="1674220614310" duration="1248000" />
+      <workItem from="1674220614310" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="ignored" />
+    <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_basic/письменные_принадлежности_3/WritingMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_basic/письменные_принадлежности_3/WritingMaterials.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="614e3a49-ed3d-4603-ad4c-5d235add9c98" />
+        <option name="url" value="https://github.com/vremyavnikuda/java_practice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KakhzyZ4gWwS1zfwRDB7fmASQJ" />
   <component name="ProjectViewState">
@@ -46,7 +68,7 @@
       <workItem from="1674220207865" duration="14000" />
       <workItem from="1674220248077" duration="14000" />
       <workItem from="1674220398850" duration="199000" />
-      <workItem from="1674220614310" duration="328000" />
+      <workItem from="1674220614310" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>
@@ -55,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674220821166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upd gitignore">
+      <created>1674221028145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674221028145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignored" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignored" />
+    <MESSAGE value="upd gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd gitignore" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -8,11 +8,36 @@ public class WritingMaterials {
     private boolean draw;
 
     public WritingMaterials(){
-        /*this.name=name;
+        this.name=name;
         this.color=color;
         this.price=price;
         this.length=length;
-        this.draw=draw;*/
+        this.draw=draw;
+    }
+
+    //конструктор
+    public WritingMaterials(String name,String color){
+        this.name=name;
+        this.color=color;
+    }
+    public WritingMaterials(String name, int price){
+        this.name=name;
+        this.price=price;
+        this.color="No Color";
+    }
+    public WritingMaterials(int price,double length,boolean draw){
+        this.price=price;
+        this.length=length;
+        this.draw=draw;
+        this.color="No Color";
+        this.name="No Name";
+    }
+    public WritingMaterials(String name,String color,int price,double length,boolean draw){
+        this.name=name;
+        this.color=color;
+        this.price=price;
+        this.length=length;
+        this.draw=draw;
     }
     //String name
     public String getName(){

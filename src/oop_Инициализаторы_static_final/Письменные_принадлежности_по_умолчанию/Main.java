@@ -2,9 +2,13 @@ package oop_Инициализаторы_static_final.Письменные_пр�
 
 public class Main {
     public static void main(String[] args) {
+
         WritingMaterials pen = new WritingMaterials();
-        pen.setName("ручка");
-        pen.setColor("Красный");
+        pen.setName();
+        pen.setColor();
+        System.out.println(pen.getColor());
+        System.out.println(pen.getName());
+        pen.setColor("Red");
         pen.setLength(11.6);
         pen.setPrice(167);
         pen.setDraw(true);

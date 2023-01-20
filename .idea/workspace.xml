@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
-      <change beforePath="$PROJECT_DIR$/java_ education.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Pen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Ruler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Ruler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/WritingMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/WritingMaterials.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,8 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -43,7 +50,9 @@
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/repository/java_practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,10 +61,30 @@
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_Инициализаторы_static_final.Письменные_принадлежности_по_умолчанию.Main" />
+      <module name="java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop_Инициализаторы_static_final.Письменные_принадлежности_по_умолчанию.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +96,12 @@
       <workItem from="1674220207865" duration="14000" />
       <workItem from="1674220248077" duration="14000" />
       <workItem from="1674220398850" duration="199000" />
-      <workItem from="1674220614310" duration="1547000" />
+      <workItem from="1674220614310" duration="1571000" />
+      <workItem from="1674222223583" duration="86000" />
+      <workItem from="1674222915382" duration="6470000" />
+      <workItem from="1674231839896" duration="397000" />
+      <workItem from="1674232255905" duration="607000" />
+      <workItem from="1674232879607" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>
@@ -89,6 +123,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignored" />
     <MESSAGE value="upd gitignore" />
@@ -96,5 +141,9 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

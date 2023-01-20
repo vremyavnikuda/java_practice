@@ -1,37 +1,60 @@
 package oop_Инициализаторы_static_final.Письменные_принадлежности_по_умолчанию;
 
-public class WritingMaterials {
+public  class WritingMaterials {
     private String name;
     private String color;
     private int price;
     private double length;
     private boolean draw;
-    static {
 
+    //инициализатор color и name
+    {
+        name= getClass().getSimpleName();
+        color=getColor();
     }
-
-    public WritingMaterials(){
-
+    public  WritingMaterials(){
+        //конструктор с дефолтными параметрами
+    }
+    public  WritingMaterials(String name,String color){
         /*this.name=name;
         this.color=color;
         this.price=price;
         this.length=length;
         this.draw=draw;*/
     }
+
     //String name
     public String getName(){
-        return name;
+        if (name!=null && !name.isEmpty()){
+            return name;
+        }else {
+            return "default";
+        }
     }
-    public void setName(String name){
+    public void setName(){
         this.name=name;
     }
+
     //String color
-    public  String getColor(){
-        return color;
+    //обрабатываем исключение если (есть) и если (нет) аргументов у getColor()
+    public String getColor(){
+        if (color!=null && !color.isEmpty()){
+            return color;
+        }else {
+            return "default";
+        }
     }
-    public void setColor(String color){
+
+    //метод setColor(если есть аргументы)
+    public void setColor(){
         this.color=color;
     }
+    //метод setColor(если нет аргументов)
+    public String setColor(String color) {
+        this.color=color;
+        return color;
+    }
+
     //int price
     public int getPrice(){
         return price;

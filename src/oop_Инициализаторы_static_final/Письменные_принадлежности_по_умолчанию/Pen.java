@@ -4,8 +4,8 @@ public class Pen extends WritingMaterials {
     private int countColor;
     private boolean auto;
 
-    public Pen() {
-        super();
+    public Pen(String name,String color) {
+        super(name,color);
     }
 
 

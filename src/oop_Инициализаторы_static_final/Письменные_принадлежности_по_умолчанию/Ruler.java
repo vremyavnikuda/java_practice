@@ -10,7 +10,7 @@ public class Ruler extends WritingMaterials {
 
     //метод measure
     public void measure(){
-        System.out.println("Сейчас померяем длину");
+        System.out.println("Сейчас измерим длину");
     }
 
     //Length
@@ -34,6 +34,6 @@ public class Ruler extends WritingMaterials {
 
     //переопределение метода display()
     public void display(){
-        System.out.println("This is "+ Pen.class.getSimpleName());
+        System.out.println("This is "+ Ruler.class.getSimpleName());
     }
 }

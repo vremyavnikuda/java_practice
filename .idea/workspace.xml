@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Divider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Ruler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Divider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Ruler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Divider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Ruler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Pen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Ruler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/Ruler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/WritingMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Письменные_принадлежности_по_умолчанию/WritingMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Инициализатор/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Инициализатор/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +54,35 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/repository/java_practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "F:/repository/java_practice/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\repository\java_practice\src\oop_Инициализаторы_static_final\Финальные_письменные_принадлежности" />
+      <recent name="F:\repository\java_practice\src\oop_Инициализаторы_static_final\Пронумерованные_письменные_принадлежности" />
+      <recent name="F:\repository\java_practice\src\oop_Инициализаторы_static_final\Статичные_письменные_принадлежности" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop_Инициализаторы_static_final.Письменные_принадлежности_по_умолчанию.Main" />
@@ -101,7 +119,9 @@
       <workItem from="1674222915382" duration="6470000" />
       <workItem from="1674231839896" duration="397000" />
       <workItem from="1674232255905" duration="607000" />
-      <workItem from="1674232879607" duration="3466000" />
+      <workItem from="1674232879607" duration="3708000" />
+      <workItem from="1674238617192" duration="21000" />
+      <workItem from="1674317091208" duration="10627000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

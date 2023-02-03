@@ -30,7 +30,7 @@ public class mfs1 {
         String q=sc.nextLine();
         char c=q.charAt(0);
         // для этого необходимо воспользоваться методом класса Character
-        //isDigit -метод проверяет ,является ли chr цифрой ?
+        //isDigit -метод проверять, является ли chr цифрой ?
         if (Character.isDigit(c)){
             System.out.println("yes");//если да
         }else {

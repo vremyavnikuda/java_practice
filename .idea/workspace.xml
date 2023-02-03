@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Divider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/Ruler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Пронумерованные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Divider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/Ruler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Статичные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Divider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/Ruler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности/WritingMaterials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Инициализатор/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_Инициализаторы_static_final/Инициализатор/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/l_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/l_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_functions_strings/mfs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_functions_strings/mfs1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +22,9 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -63,7 +52,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "F:/repository/java_practice/src/oop_Инициализаторы_static_final/Финальные_письменные_принадлежности",
+    "last_opened_file_path": "E:/java_course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,7 +110,12 @@
       <workItem from="1674232255905" duration="607000" />
       <workItem from="1674232879607" duration="3708000" />
       <workItem from="1674238617192" duration="21000" />
-      <workItem from="1674317091208" duration="10627000" />
+      <workItem from="1674317091208" duration="11245000" />
+      <workItem from="1675274988604" duration="298000" />
+      <workItem from="1675309776313" duration="1190000" />
+      <workItem from="1675336316682" duration="1193000" />
+      <workItem from="1675355077709" duration="1726000" />
+      <workItem from="1675403670388" duration="3026000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

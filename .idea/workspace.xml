@@ -6,13 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/l_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/l_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_functions_strings/mfs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_functions_strings/mfs1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KakhzyZ4gWwS1zfwRDB7fmASQJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +60,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "E:/java_course",
+    "last_opened_file_path": "F:/repository/java_practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +124,7 @@
       <workItem from="1675336316682" duration="1193000" />
       <workItem from="1675355077709" duration="1726000" />
       <workItem from="1675403670388" duration="3026000" />
+      <workItem from="1676138504590" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

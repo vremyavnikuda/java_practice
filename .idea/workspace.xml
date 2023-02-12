@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="upd gitignore">
+    <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,28 +54,28 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "F:/repository/java_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/repository/java_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\repository\java_practice\src\oop_Инициализаторы_static_final\Финальные_письменные_принадлежности" />
@@ -124,7 +127,8 @@
       <workItem from="1675336316682" duration="1193000" />
       <workItem from="1675355077709" duration="1726000" />
       <workItem from="1675403670388" duration="3026000" />
-      <workItem from="1676138504590" duration="5768000" />
+      <workItem from="1676138504590" duration="18675000" />
+      <workItem from="1676209201356" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674221028145</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
+      <created>1676149218236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676149218236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignored" />
     <MESSAGE value="upd gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd gitignore" />
+    <MESSAGE value="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

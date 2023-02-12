@@ -19,8 +19,8 @@ public abstract class Building {
         this.name_architectBuildeing=name_architectBuildeing;
         this.cultural_monumentBuildeing=cultural_monumentBuildeing;
     }
-    //Getter  Setter
 
+    //Getter  Setter
     //get/set название постройки
     public String getTitleBuildeing(){
         return titleBuildeing;
@@ -59,5 +59,23 @@ public abstract class Building {
     }
     public void setCultural_monumentBuildeing(){
         this.cultural_monumentBuildeing=cultural_monumentBuildeing;
+    }
+
+    //TODO
+    //МЕТОДЫ
+    //метод displayInfo() -> Вывод информации о здании
+    public void displayInfo(){
+
+    }
+
+    //class Building абстрактный -> реализуем метод в подклассах
+
+    //метод обработки "В каком районе находится здание?"
+    public String locatedBuilding() {
+        return locatedBuilding();
+    }
+    //метод tallBuilding() -> Это здание является высотным ? (переопределяется подклассами)
+    public String tallBuilding(){
+        return tallBuilding();
     }
 }

@@ -1,7 +1,3 @@
-/*
-добавить 3 метода
-так же можно перегружать методы
-*/
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import java.util.Scanner;
@@ -52,8 +48,13 @@ public class HighRiseBuilding extends Building {
         return elevator;
     }
 
-    public void setElevator(boolean elevator) {
+    public String setElevator(boolean elevator) {
         this.elevator = elevator;
+        if (elevator){
+            return "YES";
+        }else {
+            return "NO";
+        }
     }
 
     //get/set String nameComplex
@@ -77,17 +78,20 @@ public class HighRiseBuilding extends Building {
         System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
         System.out.println("Имя архитектора: " + getName_architectBuildeing());
         System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("Здание находится в: " + locatedBuilding());
+        System.out.println("Здание находится в: " + locatedBuilding()+" районе");
         System.out.println("Здание является высотным " + tallBuilding());
+        System.out.println("Если лифт в здании? "+ isElevator());
+        System.out.println("Количество этажей: "+ getNumFloors());
+        System.out.println("Здание находится в жилом комплексе: "+getNameComplex());
     }
-    //метод обработки "В каком районе находится здание?"
+    //метод locatedBuilding() "В каком районе находится здание?"
     @Override
     public String locatedBuilding() {
         Scanner input_locatedBuilding=new Scanner(System.in);
         System.out.println("В каком районе находится здание?");
         String located=input_locatedBuilding.nextLine();
         input_locatedBuilding.close();
-        return located+" районе";
+        return located;
     }
 
     //метод tallBuilding() -> Это здание является высотным ?

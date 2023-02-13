@@ -1,10 +1,20 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 public abstract class Building {
+
+    //Название
     String titleBuildeing;
+
+    //Адрес
     String addressBuildeing;
+
+    //Год постройки
     int year_of_constructionBuildeing;
+
+    //Имя архитектора
     String name_architectBuildeing;
+
+    //Является ли культурным памятников
     boolean cultural_monumentBuildeing;
 
     public Building(String titleBuildeing,
@@ -31,7 +41,7 @@ public abstract class Building {
 
     //get/set адрес постройки
     public String getAddressBuildeing(){
-        return titleBuildeing;
+        return addressBuildeing;
     }
     public void setAddressBuildeing(){
         this.addressBuildeing=addressBuildeing;
@@ -54,8 +64,12 @@ public abstract class Building {
     }
 
     //is/set является ли культурным объектом
-    public boolean isCultural_monumentBuildeing(){
-        return cultural_monumentBuildeing;
+    public String isCultural_monumentBuildeing(){
+        if (cultural_monumentBuildeing){
+            return "Да";
+        }else {
+            return "Нет";
+        }
     }
     public void setCultural_monumentBuildeing(){
         this.cultural_monumentBuildeing=cultural_monumentBuildeing;
@@ -64,8 +78,9 @@ public abstract class Building {
     //TODO
     //МЕТОДЫ
     //метод displayInfo() -> Вывод информации о здании
-    public void displayInfo(){
+    public Runnable displayInfo(){
 
+        return null;
     }
 
     //class Building абстрактный -> реализуем метод в подклассах

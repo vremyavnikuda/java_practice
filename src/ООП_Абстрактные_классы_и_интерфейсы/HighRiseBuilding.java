@@ -20,7 +20,10 @@ public class HighRiseBuilding extends Building {
             String addressBuildeing,
             int year_of_constructionBuildeing,
             String name_architectBuildeing,
-            boolean cultural_monumentBuildeing
+            boolean cultural_monumentBuildeing,
+            boolean elevator,
+            int numFloors,
+            String nameComplex
     ) {
         super(
                 titleBuildeing,
@@ -29,8 +32,9 @@ public class HighRiseBuilding extends Building {
                 name_architectBuildeing,
                 cultural_monumentBuildeing
         );
-        //конструктор numFloors
         this.numFloors = numFloors;
+        this.elevator=elevator;
+        this.nameComplex=nameComplex;
     }
 
     //Getter/Setter
@@ -38,7 +42,6 @@ public class HighRiseBuilding extends Building {
     public int getNumFloors() {
         return numFloors;
     }
-
     public void setNumFloors(int numFloors) {
         this.numFloors = numFloors;
     }
@@ -47,7 +50,6 @@ public class HighRiseBuilding extends Building {
     public boolean isElevator() {
         return elevator;
     }
-
     public String setElevator(boolean elevator) {
         this.elevator = elevator;
         if (elevator){
@@ -61,7 +63,6 @@ public class HighRiseBuilding extends Building {
     public String getNameComplex() {
         return nameComplex;
     }
-
     public String setNameComplex(String nameComplex) {
         this.nameComplex = nameComplex;
         return nameComplex;
@@ -72,7 +73,7 @@ public class HighRiseBuilding extends Building {
     //метод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода
     //класса Building displayInfo()
     @Override
-    public void displayInfo() {
+    public Runnable displayInfo() {
         System.out.println("Здание: " + getTitleBuildeing());
         System.out.println("Адрес: " + getAddressBuildeing());
         System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
@@ -83,8 +84,10 @@ public class HighRiseBuilding extends Building {
         System.out.println("Если лифт в здании? "+ isElevator());
         System.out.println("Количество этажей: "+ getNumFloors());
         System.out.println("Здание находится в жилом комплексе: "+getNameComplex());
+        return null;
     }
     //метод locatedBuilding() "В каком районе находится здание?"
+    //В данном методе, мы получаем данные от пользователя
     @Override
     public String locatedBuilding() {
         Scanner input_locatedBuilding=new Scanner(System.in);
@@ -98,9 +101,9 @@ public class HighRiseBuilding extends Building {
     @Override
     public String tallBuilding() {
         if (numFloors>10){
-            return "YES";
+            return "Да";
         }else {
-            return "NO";
+            return "Нет";
         }
     }
 }

@@ -1,7 +1,6 @@
 package ООП_Абстрактные_классы_и_интерфейсы.Library;
 import ООП_Абстрактные_классы_и_интерфейсы.Building;
 import java.time.LocalTime;
-import java.util.HashMap;
 
 //Library
 public class Library extends Building {
@@ -79,13 +78,12 @@ public class Library extends Building {
         System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
         System.out.println("Часы работы библиотеки: "+getHoursOfOperation());
         System.out.println("Библиотека в данный момент : "+openLibrary());
-        System.out.println("Обновление списка литературы в библиотеке: "+ BookByAuthorOfLibrary.addBookOfLibrary());
-
+        System.out.println("Обновление списка литературы в библиотеке: \n"+ BookByAuthorOfLibrary.addBookOfLibrary());
         System.out.println("Количество книг в библиотеке: "+getNumBooks());
         return null;
     }
     //методом String displayBookOfLibrary() вытягиваем из класса BookByAuthorOfLibrary список книг которые есть у нас в библиотеке
-    public static HashMap<String, String> displayBookOfLibrary(){
+    public static String displayBookOfLibrary(){
         return BookByAuthorOfLibrary.displayBookOfLibrary();
     }
 

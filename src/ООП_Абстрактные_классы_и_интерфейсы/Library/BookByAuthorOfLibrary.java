@@ -34,17 +34,18 @@ public class BookByAuthorOfLibrary extends Library{
     public static HashMap<String,String> bookOfLibrary = new HashMap<String,String>();
 
     //Метод отображения книг из библиотеки HashMap -> bookOfLibrary
-    public static HashMap<String, String> displayBookOfLibrary(){
+    public static String displayBookOfLibrary(){
+        StringBuilder sb=new StringBuilder();
         for (String key:bookOfLibrary.keySet()){
             String value=bookOfLibrary.get(key);
-            System.out.println(key+" - "+value);
+            sb.append(key).append(" - ").append(value).append("\n");
         }
-        return null;
+        return sb.toString();
     }
 
     //Метод добавления книг в библиотеке HashMap -> bookOfLibrary
     //Читаем файл books.txt и заносим данные из файла в HashMap bookOfLibrary
-    public static HashMap<String,String> addBookOfLibrary(){
+    public static String addBookOfLibrary(){
         try {
             //открываем файл books.txt для чтения файла
             File file=new File("F:\\repository\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Library\\books.txt");
@@ -65,7 +66,8 @@ public class BookByAuthorOfLibrary extends Library{
             readFilesBooks.close();
 
             //HashMap с книгами и авторами(книг)
-            System.out.println("Список книг был успешно добавлен!!!\nСписок добавленной литературы:");
+            System.out.println(file.getName() +" успешно прочитал");
+            System.out.println("Список книг был успешно добавлен.");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

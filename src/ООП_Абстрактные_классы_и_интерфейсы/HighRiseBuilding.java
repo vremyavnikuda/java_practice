@@ -47,16 +47,16 @@ public class HighRiseBuilding extends Building {
     }
 
     //is/set boolean elevator
-    public boolean isElevator() {
-        return elevator;
-    }
-    public String setElevator(boolean elevator) {
-        this.elevator = elevator;
+    public String isElevator() {
         if (elevator){
-            return "YES";
+            return "Да";
         }else {
-            return "NO";
+            return "Нет";
         }
+    }
+    public boolean setElevator(boolean elevator) {
+        this.elevator = elevator;
+        return elevator;
     }
 
     //get/set String nameComplex

@@ -16,5 +16,18 @@ public class Main {
                 "10:00-18:00"
         );
         myLibrary.displayInfo();
+        System.out.println("---------------");
+        HighRiseBuilding highRiseBuilding = new HighRiseBuilding(
+                "Здание 1",
+                "Адрес 1",
+                2021,
+                "Архитектор 1",
+                false,
+                true,
+                15,
+                "Жилой комплекс 1"
+        );
+        highRiseBuilding.setElevator(false);
+        highRiseBuilding.displayInfo();
     }
 }

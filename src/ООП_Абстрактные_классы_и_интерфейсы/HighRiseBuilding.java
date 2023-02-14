@@ -1,6 +1,11 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import java.util.Scanner;
+/*
+    Реализовать метод отображения класса
+    данный метод должен описывать все доступные методы в классе
+    -> как они работают и как с ними взаимодействовать
+*/
 
 //HighRiseBuilding
 public class HighRiseBuilding extends Building {

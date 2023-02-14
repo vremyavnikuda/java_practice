@@ -17,17 +17,18 @@ public class Main {
         );
         myLibrary.displayInfo();
         System.out.println("---------------");
-        HighRiseBuilding highRiseBuilding = new HighRiseBuilding(
-                "Здание 1",
-                "Адрес 1",
-                2021,
-                "Архитектор 1",
+
+        HighRiseBuilding shanghaiTower = new HighRiseBuilding(
+                "Shanghai Tower",
+                "501 Yincheng Middle Rd, Lujiazui, Pudong, Shanghai, Китай",
+                2015,
+                "Gensler",
                 false,
                 true,
-                15,
-                "Жилой комплекс 1"
+                128,
+                "Lujiazui CBD"
         );
-        highRiseBuilding.setElevator(false);
-        highRiseBuilding.displayInfo();
+        shanghaiTower.setElevator(false);
+        shanghaiTower.displayInfo();
     }
 }

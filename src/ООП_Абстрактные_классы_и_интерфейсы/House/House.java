@@ -13,6 +13,7 @@ public class House extends Building {
     private boolean whetherPoolHouse;
 
     //Есть ли гараж?
+    //-> Добавить метод определяющий на сколько автомобилей рассчитан гараж
     private boolean garageHouse;
     public House(
             String titleBuildeing,

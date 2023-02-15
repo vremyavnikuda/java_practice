@@ -1,4 +1,5 @@
-package ООП_Абстрактные_классы_и_интерфейсы;
+package ООП_Абстрактные_классы_и_интерфейсы.House;
+import ООП_Абстрактные_классы_и_интерфейсы.Building;
 
 //House
 public class House extends Building {
@@ -27,11 +28,10 @@ public class House extends Building {
                 name_architectBuildeing,
                 cultural_monumentBuildeing
         );
-    this.numRooms=numRooms;
-    this.numberFloorsHouse=numberFloorsHouse;
-    this.whetherPoolHouse=whetherPoolHouse;
-    this.garageHouse=garageHouse;
-
+        this.numRooms=numRooms;
+        this.numberFloorsHouse=numberFloorsHouse;
+        this.whetherPoolHouse=whetherPoolHouse;
+        this.garageHouse=garageHouse;
     }
 
     //Getter/Setter
@@ -67,5 +67,18 @@ public class House extends Building {
         this.garageHouse=garageHouse;
     }
 
+    //МЕТОДЫ класса class House
+    //метод displayInfo() -> отображает информацию о классе House -> переопределение метода класса Building displayInfo()
+    public Runnable displayInfo(){
+        System.out.println("Здание: " + getTitleBuildeing());
+        System.out.println("Адрес: " + getAddressBuildeing());
+        System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
+        System.out.println("Имя архитектора: " + getName_architectBuildeing());
+        System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
+
+        return null;
+    }
+
+    //
 }
 

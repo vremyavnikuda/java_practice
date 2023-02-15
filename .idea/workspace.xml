@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/Family.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <workItem from="1676138504590" duration="18675000" />
       <workItem from="1676209201356" duration="34553000" />
       <workItem from="1676372981616" duration="6934000" />
-      <workItem from="1676461054641" duration="3141000" />
+      <workItem from="1676461054641" duration="5596000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

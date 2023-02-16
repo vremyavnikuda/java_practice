@@ -79,7 +79,6 @@ public abstract class Building {
     //МЕТОДЫ
     //метод displayInfo() -> Вывод информации о здании
     public Runnable displayInfo(){
-
         return null;
     }
 

@@ -13,8 +13,10 @@ public class House extends Building {
     private boolean whetherPoolHouse;
 
     //Есть ли гараж?
-    //-> Добавить метод определяющий на сколько автомобилей рассчитан гараж
     private boolean garageHouse;
+
+    //-> Добавить метод определяющий на сколько автомобилей рассчитан гараж
+    private int numGarageHouse;
     public House(
             String titleBuildeing,
             String addressBuildeing,
@@ -33,6 +35,7 @@ public class House extends Building {
         this.numberFloorsHouse=numberFloorsHouse;
         this.whetherPoolHouse=whetherPoolHouse;
         this.garageHouse=garageHouse;
+        this.numGarageHouse=numGarageHouse;
     }
 
     //Getter/Setter
@@ -67,6 +70,13 @@ public class House extends Building {
     public void setGarageHouse(boolean garageHouse){
         this.garageHouse=garageHouse;
     }
+    //-> Добавить метод определяющий на сколько автомобилей рассчитан гараж
+    public int getNumGarageHouse(){
+        return numGarageHouse;
+    }
+    public void setNumGarageHouse(int numGarageHouse){
+        this.numGarageHouse=numGarageHouse;
+    }
 
     //МЕТОДЫ класса class House
     //метод displayInfo() -> отображает информацию о классе House -> переопределение метода класса Building displayInfo()
@@ -76,10 +86,24 @@ public class House extends Building {
         System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
         System.out.println("Имя архитектора: " + getName_architectBuildeing());
         System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-
+        System.out.println("Хватит ли семье class Family места в гараже для автомобилей? :"+hasEnoughSpaceInGarage());
         return null;
     }
 
-    //
+    //Хватит ли семье class Family места в гараже для автомобилей?
+    public String hasEnoughSpaceInGarage(){
+        if (isGarageHouse()){
+            if (getNumGarageHouse()>=Family.numbCarFamily){
+                return "Да";
+            }else{
+                return "Нет";
+            }
+        } else if (getNumGarageHouse()<Family.numbCarFamily) {
+            return "Нет";
+        }else {
+            return "У дома нет гаража";
+        }
+    }
+    //Хватит ли комнат для семьи class Family в доме?
 }
 

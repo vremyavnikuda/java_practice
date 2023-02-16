@@ -30,5 +30,7 @@ public class Main {
         );
         shanghaiTower.setElevator(false);
         shanghaiTower.displayInfo();
+
+        System.out.println("---------------");
     }
 }

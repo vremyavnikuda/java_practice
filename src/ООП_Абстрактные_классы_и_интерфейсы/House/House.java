@@ -3,6 +3,7 @@ import ООП_Абстрактные_классы_и_интерфейсы.Buildi
 
 //House
 public class House extends Building {
+
     //int numRooms -> кол-во комнат в House
     private int numRooms;
 
@@ -15,8 +16,11 @@ public class House extends Building {
     //Есть ли гараж?
     private boolean garageHouse;
 
-    //-> Добавить метод определяющий на сколько автомобилей рассчитан гараж
+    //на сколько автомобилей рассчитан гараж?
     private int numGarageHouse;
+
+    // TODO: 16.02.2023 Это класс House он наследует свойства и методы от класса Building
+    // TODO: 16.02.2023 class House так же является супер классом для class Family
     public House(
             String titleBuildeing,
             String addressBuildeing,
@@ -37,6 +41,7 @@ public class House extends Building {
         this.garageHouse=garageHouse;
         this.numGarageHouse=numGarageHouse;
     }
+
 
     //Getter/Setter
     //get/set numHouse -> кол-во комнат в House
@@ -80,13 +85,15 @@ public class House extends Building {
 
     //МЕТОДЫ класса class House
     //метод displayInfo() -> отображает информацию о классе House -> переопределение метода класса Building displayInfo()
+    @Override
     public Runnable displayInfo(){
         System.out.println("Здание: " + getTitleBuildeing());
         System.out.println("Адрес: " + getAddressBuildeing());
         System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
-        System.out.println("Имя архитектора: " + getName_architectBuildeing());
-        System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("Хватит ли семье class Family места в гараже для автомобилей? :"+hasEnoughSpaceInGarage());
+        //System.out.println("Имя архитектора: " + getName_architectBuildeing());
+        //System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
+        System.out.println("Хватит ли семье места в гараже для автомобилей? :"+hasEnoughSpaceInGarage());
+        System.out.println("Хватит ли семье комнат в доме ?: "+ EnoughRoom());
         return null;
     }
 
@@ -105,5 +112,12 @@ public class House extends Building {
         }
     }
     //Хватит ли комнат для семьи class Family в доме?
+    public String EnoughRoom(){
+        if (numRooms>=Family.numFamilyComposition){
+            return "Да";
+        }else {
+            return "Нет";
+        }
+    }
 }
 

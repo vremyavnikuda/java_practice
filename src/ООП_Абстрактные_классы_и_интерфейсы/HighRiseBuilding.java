@@ -38,8 +38,8 @@ public class HighRiseBuilding extends Building {
                 cultural_monumentBuildeing
         );
         this.numFloors = numFloors;
-        this.elevator=elevator;
-        this.nameComplex=nameComplex;
+        this.elevator = elevator;
+        this.nameComplex = nameComplex;
     }
 
     //Getter/Setter
@@ -47,18 +47,20 @@ public class HighRiseBuilding extends Building {
     public int getNumFloors() {
         return numFloors;
     }
+
     public void setNumFloors(int numFloors) {
         this.numFloors = numFloors;
     }
 
     //is/set boolean elevator
     public String isElevator() {
-        if (elevator){
+        if (elevator) {
             return "Да";
-        }else {
+        } else {
             return "Нет";
         }
     }
+
     public boolean setElevator(boolean elevator) {
         this.elevator = elevator;
         return elevator;
@@ -68,6 +70,7 @@ public class HighRiseBuilding extends Building {
     public String getNameComplex() {
         return nameComplex;
     }
+
     public String setNameComplex(String nameComplex) {
         this.nameComplex = nameComplex;
         return nameComplex;
@@ -84,20 +87,21 @@ public class HighRiseBuilding extends Building {
         System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
         System.out.println("Имя архитектора: " + getName_architectBuildeing());
         System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("Здание находится в: " + locatedBuilding()+" районе");
+        System.out.println("Здание находится в: " + locatedBuilding() + " районе");
         System.out.println("Здание является высотным " + tallBuilding());
-        System.out.println("Если лифт в здании? "+ isElevator());
-        System.out.println("Количество этажей: "+ getNumFloors());
-        System.out.println("Здание находится в жилом комплексе: "+getNameComplex());
+        System.out.println("Если лифт в здании? " + isElevator());
+        System.out.println("Количество этажей: " + getNumFloors());
+        System.out.println("Здание находится в жилом комплексе: " + getNameComplex());
         return null;
     }
+
     //метод locatedBuilding() "В каком районе находится здание?"
     //В данном методе, мы получаем данные от пользователя
     @Override
     public String locatedBuilding() {
-        Scanner input_locatedBuilding=new Scanner(System.in);
+        Scanner input_locatedBuilding = new Scanner(System.in);
         System.out.println("В каком районе находится здание?");
-        String located=input_locatedBuilding.nextLine();
+        String located = input_locatedBuilding.nextLine();
         input_locatedBuilding.close();
         return located;
     }
@@ -105,9 +109,9 @@ public class HighRiseBuilding extends Building {
     //метод tallBuilding() -> Это здание является высотным ?
     @Override
     public String tallBuilding() {
-        if (numFloors>10){
+        if (numFloors > 10) {
             return "Да";
-        }else {
+        } else {
             return "Нет";
         }
     }

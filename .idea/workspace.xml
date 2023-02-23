@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/House/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/основы_java/Основные_типы_данных.Ввод_данных_с_клавиатуры/task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -66,15 +71,15 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "F:/repository/java_practice",
+    "last_opened_file_path": "E:/java_practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
@@ -168,6 +173,14 @@
       <workItem from="1676461054641" duration="6340000" />
       <workItem from="1676544102831" duration="7371000" />
       <workItem from="1676554181594" duration="3814000" />
+      <workItem from="1677168616700" duration="124000" />
+      <workItem from="1677168755968" duration="29000" />
+      <workItem from="1677169098788" duration="71000" />
+      <workItem from="1677169192800" duration="224000" />
+      <workItem from="1677169437757" duration="2132000" />
+      <workItem from="1677171600980" duration="121000" />
+      <workItem from="1677171732968" duration="304000" />
+      <workItem from="1677172051584" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

@@ -7,12 +7,5 @@
       </Languages>
     </inspection_tool>
     <inspection_tool class="PyInterpreterInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ignoredIdentifiers">
-        <list>
-          <option value="practic.pr.pr_0.print" />
-        </list>
-      </option>
-    </inspection_tool>
   </profile>
 </component>

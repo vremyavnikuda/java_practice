@@ -38,7 +38,7 @@ public class BookByAuthorOfLibrary extends Library{
         StringBuilder sb=new StringBuilder();
         for (String key:bookOfLibrary.keySet()){
             String value=bookOfLibrary.get(key);
-            sb.append(key).append(" - ").append(value).append("\n");
+            sb.append("\t").append(key).append(" - ").append(value).append("\n");
         }
         return sb.toString();
     }
@@ -66,8 +66,9 @@ public class BookByAuthorOfLibrary extends Library{
             readFilesBooks.close();
 
             //HashMap с книгами и авторами(книг)
-            System.out.println(file.getName() +" успешно прочитал");
-            System.out.println("Список книг был успешно добавлен.");
+            System.out.println("---------------");
+            System.out.println("\t" +file.getName() +" успешно прочитал");
+            System.out.println("\t" +"Список книг был успешно добавлен.");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -5,7 +5,7 @@ import java.time.LocalTime;
     Реализовать метод отображения класса
     данный метод должен описывать все доступные методы в классе
     -> как они работают и как с ними взаимодействовать
-    Выводить информацию у подклассах супер класса
+    Выводить информацию у подклассов супер класса
     -> отображать информацию о методах подклассов и как с ними взаимодействовать
 */
 
@@ -79,14 +79,14 @@ public class Library extends Building {
     @Override
     public Runnable displayInfo(){
         System.out.println("Здание: " + getTitleBuildeing());
-        System.out.println("Адрес: " + getAddressBuildeing());
-        System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
-        System.out.println("Имя архитектора: " + getName_architectBuildeing());
-        System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("Часы работы библиотеки: "+getHoursOfOperation());
-        System.out.println("Библиотека в данный момент : "+openLibrary());
-        System.out.println("Обновление списка литературы в библиотеке: \n"+ BookByAuthorOfLibrary.addBookOfLibrary());
-        System.out.println("Количество книг в библиотеке: "+getNumBooks());
+        System.out.println("\t" +"Адрес: " + getAddressBuildeing());
+        System.out.println("\t" +"Год постройки: " + getYear_of_constructionBuildeing());
+        System.out.println("\t" +"Имя архитектора: " + getName_architectBuildeing());
+        System.out.println("\t" +"Культурное наследие: " + isCultural_monumentBuildeing());
+        System.out.println("\t" +"Часы работы библиотеки: "+getHoursOfOperation());
+        System.out.println("\t" +"Библиотека в данный момент : "+openLibrary());
+        System.out.println("\t" +"Обновление списка литературы в библиотеке: \n"+ BookByAuthorOfLibrary.addBookOfLibrary());
+        System.out.println("\t" +"Количество книг в библиотеке: "+getNumBooks());
         return null;
     }
     //методом String displayBookOfLibrary() вытягиваем из класса BookByAuthorOfLibrary список книг которые есть у нас в библиотеке
@@ -109,6 +109,14 @@ public class Library extends Building {
         }else {
             return "Закрыта";
         }
+    }
+    //метод displayMethod() -> Доступные методы для объектов созданных данным классом
+    @Override
+    public void displayMethod() {
+        System.out.println("---------------");
+        System.out.println("Имя класса: HighRiseBuilding");
+        System.out.println("Данный класс является подклассом: Building");
+        System.out.println("Доступные методы: для объектов данного класса " + "\n" + "\t" + "метод locatedBuilding() -> В каком районе находится здание?" + "\n" + "\t" + "метод tallBuilding() -> Это здание является высотным ?" + "\n" + "\t" + "метод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода" + "\n" + "\t" + "метод displayMethod() -> -> Доступные методы для объектов созданных данным классом");
     }
 }
 

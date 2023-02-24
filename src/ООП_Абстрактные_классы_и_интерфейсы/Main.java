@@ -3,7 +3,7 @@ package ООП_Абстрактные_классы_и_интерфейсы;
 import ООП_Абстрактные_классы_и_интерфейсы.Library.Library;
 
 public class Main {
-    public static void main(String []args){
+    public static void main(String[] args) {
 
         Library myLibrary = new Library(
                 "Центральная городская библиотека им. Пушкина",
@@ -17,6 +17,7 @@ public class Main {
         );
         myLibrary.displayInfo();
         System.out.println("---------------");
+        myLibrary.displayMethod();
 
         HighRiseBuilding shanghaiTower = new HighRiseBuilding(
                 "Shanghai Tower",
@@ -30,7 +31,8 @@ public class Main {
         );
         shanghaiTower.setElevator(false);
         shanghaiTower.displayInfo();
-
+        //показать методы доступные данному объекту
+        shanghaiTower.displayMethod();
         System.out.println("---------------");
     }
 }

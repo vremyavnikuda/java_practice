@@ -3,10 +3,14 @@ package ООП_Абстрактные_классы_и_интерфейсы.Polic
 
 // DetentionCells -> камеры предварительного заключения полицейского департамента -> PoliceDepartment
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+
 public class DetentionCells extends PoliceDepartment {
 
     //Камера предварительного заключения (представлена в виде двумерного массива данных)
-    public int[][] remandPrison = new int[getNumPreDetentionCells()][getNumPeopleCameraDesigned()];
+    public static int[] remandPrison = new int[getNumPreDetentionCells()];
 
     public DetentionCells(
             String titleBuildeing,
@@ -32,26 +36,43 @@ public class DetentionCells extends PoliceDepartment {
         );
     }
 
-    //метод проверки есть ли свободные камеры?
-
-    public String checkFreePlace() {
-        for (int i = 0; i < getNumPreDetentionCells(); i++) {
-            int count = 0;
-            for (int j = 0; j < getNumPeopleCameraDesigned(); j++) {
-                if (remandPrison[i][j] == 0) {
-                    count++;
-                }
-            }
-            if (count == 0) {
-                return "Камера n: p заключенных: В камере нет мест";
-            } else { // count is not 0
-                return "Камера " + i + ":" + getNumPeopleCameraDesigned() + " заключенных: " + count + " свободных мест";
-            }
-        }
-        return checkFreePlace();
+    //TODO
+    //МЕТОДЫ
+    //Аргументы метода задаются в Main
+    @Override
+    public Runnable displayInfo() {
+        return super.displayInfo();
     }
 
-    //метод (поместить заключенного в камеру)
+    //TODO
+
+    //Устанавливаем значение (кол-во людей на которое рассчитана 1 камера)
+    public static void fillRemandPrison() {
+        Arrays.fill(remandPrison, getNumPeopleCameraDesigned());
+    }
+
+    //метод проверки есть ли свободные камеры?
+    /*public static @NotNull Serializable checkFreePlace() {
+        remandPrison = new int[getNumPreDetentionCells()];
+        return checkFreePlace();
+    }*/
+
+    //Сохраняем в файл данные о наполняемости камер
+    public static void saveRemandPrisonFiles() {
+        try {
+            FileWriter writer = new FileWriter("PrisonData.txt");
+            for (int j : remandPrison) {
+                writer.write(Arrays.toString(Integer.toString(j).split("/")));
+            }
+            writer.close();
+            System.out.println("\tФайл с данными успешно сохранен");
+        } catch (IOException e) {
+            System.out.println("ERROR\n Проверьте данные указанные в numPeopleCameraDesigned");
+        }
+
+    }
+
+    //метод добавление заключенного в свободную камеру
 
     //метод (выпустить заключенного)
 }

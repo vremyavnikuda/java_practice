@@ -1,6 +1,7 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import ООП_Абстрактные_классы_и_интерфейсы.Library.Library;
+import ООП_Абстрактные_классы_и_интерфейсы.Police.DetentionCells;
 import ООП_Абстрактные_классы_и_интерфейсы.Police.PoliceDepartment;
 
 public class Main {
@@ -47,7 +48,8 @@ public class Main {
                 20,
                 150
         );
-        NYDP.();
         NYDP.displayInfo();
+        DetentionCells.fillRemandPrison();
+        DetentionCells.saveRemandPrisonFiles();
     }
 }

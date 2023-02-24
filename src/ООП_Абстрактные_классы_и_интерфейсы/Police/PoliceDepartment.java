@@ -1,6 +1,5 @@
 package ООП_Абстрактные_классы_и_интерфейсы.Police;
 
-
 import ООП_Абстрактные_классы_и_интерфейсы.Building;
 
 //PoliceDepartment
@@ -13,10 +12,10 @@ public class PoliceDepartment extends Building {
     private int carDepartment;
 
     //int numPreDetentionCells кол-во камер предварительного заключения
-    private int numPreDetentionCells;
+    private static int numPreDetentionCells;
 
     //int numPeopleCameraDesigned -> на сколько человек рассчитана камера
-    private int numPeopleCameraDesigned;
+    private static int numPeopleCameraDesigned;
 
     public PoliceDepartment(
             String titleBuildeing,
@@ -37,8 +36,8 @@ public class PoliceDepartment extends Building {
                 cultural_monumentBuildeing
         );
         this.carDepartment = carDepartment;
-        this.numPreDetentionCells = numPreDetentionCells;
-        this.numPeopleCameraDesigned = numPeopleCameraDesigned;
+        PoliceDepartment.numPreDetentionCells = numPreDetentionCells;
+        PoliceDepartment.numPeopleCameraDesigned = numPeopleCameraDesigned;
         this.policeOfficers = policeOfficers;
     }
 
@@ -61,21 +60,21 @@ public class PoliceDepartment extends Building {
     }
 
     //get/set numPreDetentionCells=кол-во камер предварительного заключения
-    public int getNumPreDetentionCells() {
+    public static int getNumPreDetentionCells() {
         return numPreDetentionCells;
     }
 
     public void setNumPreDetentionCells(int numPreDetentionCells) {
-        this.numPreDetentionCells = numPreDetentionCells;
+        PoliceDepartment.numPreDetentionCells = numPreDetentionCells;
     }
 
     //get/set int numPeopleCameraDesigned -> на сколько человек рассчитана камера
-    public int getNumPeopleCameraDesigned() {
+    public static int getNumPeopleCameraDesigned() {
         return numPeopleCameraDesigned;
     }
 
     public void setNumPeopleCameraDesigned(int numPeopleCameraDesigned) {
-        this.numPeopleCameraDesigned = numPeopleCameraDesigned;
+        PoliceDepartment.numPeopleCameraDesigned = numPeopleCameraDesigned;
     }
 
     //Методы
@@ -91,11 +90,16 @@ public class PoliceDepartment extends Building {
         System.out.println("\t" + "Количество офицеров работающих в департаменте: " + getPoliceOfficers());
         System.out.println("\t" + "Количество машин в департаменте : " + getCarDepartment());
         System.out.println("\t" + "Количество камер предварительного заключения в департаменте: " + getNumPreDetentionCells());
-        System.out.println("\t"+"На сколько заключенных рассчитана камера: "+getNumPeopleCameraDesigned());
-        System.out.println("\t"+"Сколько заключенных может содержать департамент: " + (getNumPreDetentionCells() * getNumPeopleCameraDesigned()));
-        System.out.println(checkFreePlace());
-
+        System.out.println("\t" + "На сколько заключенных рассчитана камера: " + getNumPeopleCameraDesigned());
+        System.out.println("\t" + "Сколько заключенных может содержать департамент: " + (getNumPreDetentionCells() * getNumPeopleCameraDesigned()));
+        //System.out.println(DetentionCells.checkFreePlace());
         return null;
+    }
+
+    //метод displayMethod() -> Доступные методы для объектов созданных данным классом
+    @Override
+    public void displayMethod(){
+
     }
 }
 

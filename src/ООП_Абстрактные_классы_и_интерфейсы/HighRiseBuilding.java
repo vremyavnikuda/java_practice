@@ -82,7 +82,7 @@ public class HighRiseBuilding extends Building {
         System.out.println("\t" +"Год постройки: " + getYear_of_constructionBuildeing());
         System.out.println("\t" +"Имя архитектора: " + getName_architectBuildeing());
         System.out.println("\t" +"Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("\t" +"Здание находится в: " + locatedBuilding() + " районе");
+        System.out.println("\t" +"Здание находится в: " + locationBuilding("Центральном") + " районе");
         System.out.println("\t" +"Здание является высотным " + tallBuilding());
         System.out.println("\t" +"Если лифт в здании? " + isElevator());
         System.out.println("\t" +"Количество этажей: " + getNumFloors());
@@ -90,16 +90,9 @@ public class HighRiseBuilding extends Building {
         return null;
     }
 
-    //метод locatedBuilding() "В каком районе находится здание?"
-    //В данном методе, мы получаем данные от пользователя
-
-    @Override
-    public String locatedBuilding() {
-        Scanner input_locatedBuilding = new Scanner(System.in);
-        System.out.println("\t" +"В каком районе находится здание?");
-        String located = input_locatedBuilding.nextLine();
-        input_locatedBuilding.close();
-        return located;
+    //В каком районе находится здание
+    public String locationBuilding(String location){
+        return location;
     }
 
     //метод tallBuilding() -> Это здание является высотным ?

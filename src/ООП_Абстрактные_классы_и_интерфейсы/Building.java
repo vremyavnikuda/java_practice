@@ -22,79 +22,80 @@ public abstract class Building {
                     int year_of_constructionBuildeing,
                     String name_architectBuildeing,
                     boolean cultural_monumentBuildeing
-    ){
-        this.titleBuildeing=titleBuildeing;
-        this.addressBuildeing=addressBuildeing;
-        this.year_of_constructionBuildeing=year_of_constructionBuildeing;
-        this.name_architectBuildeing=name_architectBuildeing;
-        this.cultural_monumentBuildeing=cultural_monumentBuildeing;
+    ) {
+        this.titleBuildeing = titleBuildeing;
+        this.addressBuildeing = addressBuildeing;
+        this.year_of_constructionBuildeing = year_of_constructionBuildeing;
+        this.name_architectBuildeing = name_architectBuildeing;
+        this.cultural_monumentBuildeing = cultural_monumentBuildeing;
     }
 
     //Getter  Setter
     //get/set название постройки
-    public String getTitleBuildeing(){
+    public String getTitleBuildeing() {
         return titleBuildeing;
     }
-    public void setTitleBuildeing(){
-        this.titleBuildeing=titleBuildeing;
+
+    public void setTitleBuildeing() {
+        this.titleBuildeing = titleBuildeing;
     }
 
     //get/set адрес постройки
-    public String getAddressBuildeing(){
+    public String getAddressBuildeing() {
         return addressBuildeing;
     }
-    public void setAddressBuildeing(){
-        this.addressBuildeing=addressBuildeing;
+
+    public void setAddressBuildeing() {
+        this.addressBuildeing = addressBuildeing;
     }
 
     //get/set год постройки
-    public int getYear_of_constructionBuildeing(){
+    public int getYear_of_constructionBuildeing() {
         return year_of_constructionBuildeing;
     }
-    public void setYear_of_constructionBuildeing(){
-        this.year_of_constructionBuildeing=year_of_constructionBuildeing;
+
+    public void setYear_of_constructionBuildeing() {
+        this.year_of_constructionBuildeing = year_of_constructionBuildeing;
     }
 
     //get/set имя архитектора
-    public String getName_architectBuildeing(){
+    public String getName_architectBuildeing() {
         return name_architectBuildeing;
     }
-    public void setName_architectBuildeing(){
-        this.name_architectBuildeing=name_architectBuildeing;
+
+    public void setName_architectBuildeing() {
+        this.name_architectBuildeing = name_architectBuildeing;
     }
 
     //is/set является ли культурным объектом
-    public String isCultural_monumentBuildeing(){
-        if (cultural_monumentBuildeing){
+    public String isCultural_monumentBuildeing() {
+        if (cultural_monumentBuildeing) {
             return "Да";
-        }else {
+        } else {
             return "Нет";
         }
     }
-    public void setCultural_monumentBuildeing(){
-        this.cultural_monumentBuildeing=cultural_monumentBuildeing;
+
+    public void setCultural_monumentBuildeing() {
+        this.cultural_monumentBuildeing = cultural_monumentBuildeing;
     }
 
     //TODO
     //МЕТОДЫ
     //метод displayInfo() -> Вывод информации о здании
-    public Runnable displayInfo(){
+    public Runnable displayInfo() {
         return null;
     }
 
     //class Building абстрактный -> реализуем метод в подклассах
 
-    //метод обработки "В каком районе находится здание?"
-    public String locatedBuilding() {
-        return locatedBuilding();
-    }
     //метод tallBuilding() -> Это здание является высотным ? (переопределяется подклассами)
-    public String tallBuilding(){
+    public String tallBuilding() {
         return tallBuilding();
     }
 
     //показать методы доступные объектам (данный метод переопределяется -> подклассами)
-    public void displayMethod(){
+    public void displayMethod() {
 
     }
 }

@@ -83,24 +83,25 @@ public class HighRiseBuilding extends Building {
     @Override
     public Runnable displayInfo() {
         System.out.println("Здание: " + getTitleBuildeing());
-        System.out.println("Адрес: " + getAddressBuildeing());
-        System.out.println("Год постройки: " + getYear_of_constructionBuildeing());
-        System.out.println("Имя архитектора: " + getName_architectBuildeing());
-        System.out.println("Культурное наследие: " + isCultural_monumentBuildeing());
-        System.out.println("Здание находится в: " + locatedBuilding() + " районе");
-        System.out.println("Здание является высотным " + tallBuilding());
-        System.out.println("Если лифт в здании? " + isElevator());
-        System.out.println("Количество этажей: " + getNumFloors());
-        System.out.println("Здание находится в жилом комплексе: " + getNameComplex());
+        System.out.println("\t" +"Адрес: " + getAddressBuildeing());
+        System.out.println("\t" +"Год постройки: " + getYear_of_constructionBuildeing());
+        System.out.println("\t" +"Имя архитектора: " + getName_architectBuildeing());
+        System.out.println("\t" +"Культурное наследие: " + isCultural_monumentBuildeing());
+        System.out.println("\t" +"Здание находится в: " + locatedBuilding() + " районе");
+        System.out.println("\t" +"Здание является высотным " + tallBuilding());
+        System.out.println("\t" +"Если лифт в здании? " + isElevator());
+        System.out.println("\t" +"Количество этажей: " + getNumFloors());
+        System.out.println("\t" +"Здание находится в жилом комплексе: " + getNameComplex());
         return null;
     }
 
     //метод locatedBuilding() "В каком районе находится здание?"
     //В данном методе, мы получаем данные от пользователя
+
     @Override
     public String locatedBuilding() {
         Scanner input_locatedBuilding = new Scanner(System.in);
-        System.out.println("В каком районе находится здание?");
+        System.out.println("\t" +"В каком районе находится здание?");
         String located = input_locatedBuilding.nextLine();
         input_locatedBuilding.close();
         return located;
@@ -115,5 +116,16 @@ public class HighRiseBuilding extends Building {
             return "Нет";
         }
     }
-}
 
+    //метод displayMethod() -> Доступные методы для объектов созданных данным классом
+    @Override
+    public void displayMethod() {
+        System.out.println("---------------");
+        System.out.println("Имя класса: HighRiseBuilding.");
+        System.out.println("Данный класс является подклассом: Building.");
+        System.out.println(
+                "Доступные методы: для объектов данного класса: " +
+                        "\n" + "\t" + "метод locatedBuilding() -> В каком районе находится здание?" + "\n" + "\t" + "метод tallBuilding() -> Это здание является высотным ?" + "\n" + "\t" + "метод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода." +
+                        "\n" + "\t" + "метод displayMethod() -> -> Доступные методы для объектов созданных данным классом.");
+    }
+}

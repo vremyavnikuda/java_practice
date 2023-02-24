@@ -1,11 +1,6 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import java.util.Scanner;
-/*
-    Реализовать метод отображения класса
-    данный метод должен описывать все доступные методы в классе
-    -> как они работают и как с ними взаимодействовать
-*/
 
 //HighRiseBuilding
 public class HighRiseBuilding extends Building {
@@ -124,8 +119,11 @@ public class HighRiseBuilding extends Building {
         System.out.println("Имя класса: HighRiseBuilding.");
         System.out.println("Данный класс является подклассом: Building.");
         System.out.println(
-                "Доступные методы: для объектов данного класса: " +
-                        "\n" + "\t" + "метод locatedBuilding() -> В каком районе находится здание?" + "\n" + "\t" + "метод tallBuilding() -> Это здание является высотным ?" + "\n" + "\t" + "метод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода." +
-                        "\n" + "\t" + "метод displayMethod() -> -> Доступные методы для объектов созданных данным классом.");
+                """
+                        Доступные методы: для объектов данного класса:\s
+                        \tметод locatedBuilding() -> В каком районе находится здание?
+                        \tметод tallBuilding() -> Это здание является высотным ?
+                        \tметод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода.
+                        \tметод displayMethod() -> -> Доступные методы для объектов созданных данным классом.""");
     }
 }

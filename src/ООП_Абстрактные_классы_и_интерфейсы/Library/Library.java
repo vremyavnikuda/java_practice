@@ -27,7 +27,6 @@ public class Library extends Building {
             int year_of_constructionBuildeing,
             String name_architectBuildeing,
             boolean cultural_monumentBuildeing,
-
             int numBooks,
             String librarian,
             String hoursOfOperation
@@ -117,11 +116,12 @@ public class Library extends Building {
         System.out.println("Имя класса: Library");
         System.out.println("Данный класс является подклассом: Building");
         System.out.println(
-                "Доступные методы: для объектов данного класса " +
-                "\n" + "\t" + "метод openLibrary() -> Метод проверки открыта ли библиотека." +
-                "\n" + "\t" + "методом String displayBookOfLibrary() вытягиваем из класса BookByAuthorOfLibrary список книг которые есть у нас в библиотеке." +
-                "\n" + "\t" + "метод displayInfo() -> отображает информацию о классе Library -> переопределение метода класса Building displayInfo()." +
-                "\n" + "\t" + "метод displayMethod() -> Доступные методы для объектов созданных данным классом."
+                """
+                        Доступные методы: для объектов данного класса\s
+                        \tметод openLibrary() -> Метод проверки открыта ли библиотека.
+                        \tметодом String displayBookOfLibrary() вытягиваем из класса BookByAuthorOfLibrary список книг которые есть у нас в библиотеке.
+                        \tметод displayInfo() -> отображает информацию о классе Library -> переопределение метода класса Building displayInfo().
+                        \tметод displayMethod() -> Доступные методы для объектов созданных данным классом."""
         );
     }
 }

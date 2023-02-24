@@ -92,4 +92,9 @@ public abstract class Building {
     public String tallBuilding(){
         return tallBuilding();
     }
+
+    //показать методы доступные объектам (данный метод переопределяется -> подклассами)
+    public void displayMethod(){
+
+    }
 }

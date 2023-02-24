@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/HighRiseBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrisonData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrisonData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Police/DetentionCells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Police/DetentionCells.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Police/PoliceDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ООП_Абстрактные_классы_и_интерфейсы/Police/PoliceDepartment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +184,7 @@
       <workItem from="1677214815545" duration="26000" />
       <workItem from="1677215257668" duration="20683000" />
       <workItem from="1677239298119" duration="2671000" />
-      <workItem from="1677248109272" duration="6525000" />
+      <workItem from="1677248109272" duration="11072000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

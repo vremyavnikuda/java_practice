@@ -4,6 +4,8 @@ import ООП_Абстрактные_классы_и_интерфейсы.Librar
 import ООП_Абстрактные_классы_и_интерфейсы.Police.DetentionCells;
 import ООП_Абстрактные_классы_и_интерфейсы.Police.PoliceDepartment;
 
+import java.io.IOException;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -50,6 +52,11 @@ public class Main {
         );
         NYDP.displayInfo();
         DetentionCells.fillRemandPrison();
-        DetentionCells.saveRemandPrisonFiles();
+        //DetentionCells.saveRemandPrisonFiles();
+        try {
+            DetentionCells.checkFreePlace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

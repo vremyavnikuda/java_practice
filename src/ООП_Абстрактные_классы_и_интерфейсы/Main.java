@@ -1,6 +1,7 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import ООП_Абстрактные_классы_и_интерфейсы.Library.Library;
+import ООП_Абстрактные_классы_и_интерфейсы.Police.PoliceDepartment;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,8 +17,8 @@ public class Main {
                 "10:00-18:00"
         );
         myLibrary.displayInfo();
-        System.out.println("---------------");
         myLibrary.displayMethod();
+        System.out.println("---------------");
 
         HighRiseBuilding shanghaiTower = new HighRiseBuilding(
                 "Shanghai Tower",
@@ -34,5 +35,19 @@ public class Main {
         //показать методы доступные данному объекту
         shanghaiTower.displayMethod();
         System.out.println("---------------");
+
+        PoliceDepartment NYDP = new PoliceDepartment(
+                "Police department of New York City",
+                "New York, USA",
+                1875,
+                "James Renwick Jr.",
+                false,
+                250,
+                100,
+                20,
+                150
+        );
+        NYDP.();
+        NYDP.displayInfo();
     }
 }

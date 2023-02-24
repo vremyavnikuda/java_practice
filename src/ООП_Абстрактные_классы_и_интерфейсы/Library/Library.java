@@ -114,9 +114,15 @@ public class Library extends Building {
     @Override
     public void displayMethod() {
         System.out.println("---------------");
-        System.out.println("Имя класса: HighRiseBuilding");
+        System.out.println("Имя класса: Library");
         System.out.println("Данный класс является подклассом: Building");
-        System.out.println("Доступные методы: для объектов данного класса " + "\n" + "\t" + "метод locatedBuilding() -> В каком районе находится здание?" + "\n" + "\t" + "метод tallBuilding() -> Это здание является высотным ?" + "\n" + "\t" + "метод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода" + "\n" + "\t" + "метод displayMethod() -> -> Доступные методы для объектов созданных данным классом");
+        System.out.println(
+                "Доступные методы: для объектов данного класса " +
+                "\n" + "\t" + "метод openLibrary() -> Метод проверки открыта ли библиотека." +
+                "\n" + "\t" + "методом String displayBookOfLibrary() вытягиваем из класса BookByAuthorOfLibrary список книг которые есть у нас в библиотеке." +
+                "\n" + "\t" + "метод displayInfo() -> отображает информацию о классе Library -> переопределение метода класса Building displayInfo()." +
+                "\n" + "\t" + "метод displayMethod() -> Доступные методы для объектов созданных данным классом."
+        );
     }
 }
 

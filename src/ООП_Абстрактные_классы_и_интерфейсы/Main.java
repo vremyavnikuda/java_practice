@@ -7,7 +7,7 @@ import ООП_Абстрактные_классы_и_интерфейсы.Police
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Library myLibrary = new Library(
                 "Центральная городская библиотека им. Пушкина",
@@ -51,16 +51,11 @@ public class Main {
                 150
         );
         NYDP.displayInfo();
-        try {
-            DetentionCells.checkFreePlace();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            DetentionCells.addInmateToCells();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        DetentionCells.checkFreePlace();
+        DetentionCells.removeInmateFhCell(
+                4,
+                8
+        );
 
     }
 }

@@ -3,8 +3,6 @@ package ООП_Абстрактные_классы_и_интерфейсы.Polic
 
 // DetentionCells -> камеры предварительного заключения полицейского департамента -> PoliceDepartment
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.*;
 import java.util.Arrays;
 
@@ -59,7 +57,7 @@ public class DetentionCells extends PoliceDepartment {
         boolean flagReadFiles = false;
         //читаем файл PrisonData.txt, где хранится информация о статусе камер
         try {
-            BufferedReader reader = new BufferedReader((new FileReader("PrisonData.txt")));
+            BufferedReader reader = new BufferedReader((new FileReader("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt")));
             String line = reader.readLine();
             String[] value = line.substring(1, line.length() - 1).split("\\]\\[");
 
@@ -98,7 +96,7 @@ public class DetentionCells extends PoliceDepartment {
     //Сохраняем в файл данные о наполняемости камер
     public static void saveRemandPrisonFiles() {
         try {
-            FileWriter writer = new FileWriter("PrisonData.txt");
+            FileWriter writer = new FileWriter("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt");
             for (int j : remandPrison) {
                 writer.write(Arrays.toString(Integer.toString(j).split("/")));
             }
@@ -130,13 +128,55 @@ public class DetentionCells extends PoliceDepartment {
         if (flagAddInmateToCells) {
             freePlaces[freeCameraIndex]++;
             System.out.println("Заключенный успешно добавлен в камеру №" + (freeCameraIndex));
+
         } else {
             throw new IOException("В данном департаменте нет свободных мест. Заключенный будет отправлен в другой департамент.");
         }
         for (int printFreePlaces : freePlaces) {
             System.out.print(printFreePlaces + " ");
         }
-        return freePlaces;
+        //перезаписываем файл PrisonData.txt(обновляем данные)
+        try {
+            FileWriter writer = new FileWriter("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt");
+            for (int j : freePlaces) {
+                writer.write(Arrays.toString(Integer.toString(j).split("/")));
+            }
+            writer.close();
+            return "\tФайл с данными успешно сохранен";
+        }
+        catch (IOException e) {
+            throw new IOException("ERROR\n Проверьте данные указанные в numPeopleCameraDesigned");
+        }
+        finally {
+            System.out.println("Method complete");;
+        }
     }
+
     //метод (выпустить заключенного)
+    //аргументами метода будут являться int numberCell -> где numberCell является номером камеры откуда нужно выпустить заключенного
+    //int numberConcluded ->где numberConcluded является количеством заключенных которых необходимо выпустить
+    public static void removeInmateFhCell(int numberCell, int numberConcluded) throws IOException {
+        int[] freePlaces = new int[remandPrison.length];
+        System.arraycopy(remandPrison, 0, freePlaces, 0, remandPrison.length);
+        System.out.print("remandPrison -> copy -> freePlaces");
+        freePlaces[numberCell]-=numberConcluded;
+        //перезаписываем файл PrisonData.txt(обновляем данные)
+        try {
+            FileWriter writer = new FileWriter("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt");
+            for (int j : freePlaces) {
+                writer.write(Arrays.toString(Integer.toString(j).split("/")));
+            }
+            writer.close();
+        }
+        catch (IOException e) {
+            throw new IOException("ERROR\n Проверьте данные указанные в numPeopleCameraDesigned");
+        }
+        finally {
+            System.out.println("Method complete");;
+        }
+    }
+    @Override
+    public void displayMethod(){
+
+    }
 }

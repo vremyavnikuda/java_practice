@@ -51,12 +51,16 @@ public class Main {
                 150
         );
         NYDP.displayInfo();
-        DetentionCells.fillRemandPrison();
-        //DetentionCells.saveRemandPrisonFiles();
         try {
             DetentionCells.checkFreePlace();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        try {
+            DetentionCells.addInmateToCells();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }

@@ -48,7 +48,7 @@ public class BookByAuthorOfLibrary extends Library{
     public static String addBookOfLibrary(){
         try {
             //открываем файл books.txt для чтения файла
-            File file=new File("F:\\repository\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Library\\books.txt");
+            File file=new File("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Library\\books.txt");
             Scanner readFilesBooks=new Scanner(file);
 
             //Обращаемся к hashMap для хранения книг и авторов

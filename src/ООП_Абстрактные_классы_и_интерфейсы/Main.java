@@ -51,7 +51,6 @@ public class Main {
                 150
         );
         NYDP.displayInfo();
-
         NYDP.displayMethod();
     }
 }

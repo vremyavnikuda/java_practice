@@ -97,6 +97,6 @@ public abstract class Building {
     //показать методы доступные объектам (данный метод переопределяется -> подклассами)
     public void displayMethod() {
 
-    return;
+        return;
     }
 }

@@ -143,12 +143,11 @@ public class DetentionCells extends PoliceDepartment {
             }
             writer.close();
             return "\tФайл с данными успешно сохранен";
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             throw new IOException("ERROR\n Проверьте данные указанные в numPeopleCameraDesigned");
-        }
-        finally {
-            System.out.println("Method complete");;
+        } finally {
+            System.out.println("Method complete");
+            ;
         }
     }
 
@@ -159,7 +158,7 @@ public class DetentionCells extends PoliceDepartment {
         int[] freePlaces = new int[remandPrison.length];
         System.arraycopy(remandPrison, 0, freePlaces, 0, remandPrison.length);
         System.out.print("remandPrison -> copy -> freePlaces");
-        freePlaces[numberCell]-=numberConcluded;
+        freePlaces[numberCell] -= numberConcluded;
         //перезаписываем файл PrisonData.txt(обновляем данные)
         try {
             FileWriter writer = new FileWriter("E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt");
@@ -167,32 +166,32 @@ public class DetentionCells extends PoliceDepartment {
                 writer.write(Arrays.toString(Integer.toString(j).split("/")));
             }
             writer.close();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             throw new IOException("ERROR\n Проверьте данные указанные в numPeopleCameraDesigned");
-        }
-        finally {
-            System.out.println("Method complete");;
+        } finally {
+            System.out.println("Method complete");
+            ;
         }
     }
+
     @Override
-    public void displayMethod(){
+    public void displayMethod() {
         System.out.println
                 (
-                        "{"+
+                        "{\n" +
 
-                                "DetentionCells -> наследует свойства и методы от класса PoliceDepartment\n"
-                                +"{\n\t int[] remandPrison -> Камеры предварительного заключения представлены в виде одномерного массива.\n"+
-                                "\tdisplayInfo() -> отображает информацию о классе.\n"+
-                                "\tcheckFreePlace() -> метод проверяет если свободные камеры в DetentionCells.\n"+
-                                "\tsaveRemandPrisonFiles() -> метод сохраняет информацию о статусе камер в -> PrisonData.txt\n"+
-                                "\t\t Путь сохранения -> E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt\n"+
-                                "\taddInmateToCells() -> метод добавления заключенного в камеру.\n"+
-                                "\tremoveInmateFhCell(int numberCell, int numberConcluded) -> данный метод убирает заключенного из камеры, имеет входные аргументы в виде:\n"+
-                                "\t\tint numberCell -> номер камеры.\n"+
-                                "\t\tint numberConcluded -> кол-во заключенных которые необъодимо убрать.\n"+
-                                "\tdisplayMethod() -> отображает информацию о доступным методах в классе DetentionCells.\n"+
-                        "}"
+                                "\tDetentionCells -> наследует свойства и методы от класса PoliceDepartment\n"
+                                + "\t int[] remandPrison -> Камеры предварительного заключения представлены в виде одномерного массива.\n" +
+                                "\tdisplayInfo() -> отображает информацию о классе.\n" +
+                                "\tcheckFreePlace() -> метод проверяет если свободные камеры в DetentionCells.\n" +
+                                "\tsaveRemandPrisonFiles() -> метод сохраняет информацию о статусе камер в -> PrisonData.txt\n" +
+                                "\t\t Путь сохранения -> E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt\n" +
+                                "\taddInmateToCells() -> метод добавления заключенного в камеру.\n" +
+                                "\tremoveInmateFhCell(int numberCell, int numberConcluded) -> данный метод убирает заключенного из камеры, имеет входные аргументы в виде:\n" +
+                                "\t\tint numberCell -> номер камеры.\n" +
+                                "\t\tint numberConcluded -> кол-во заключенных которые необходимо убрать.\n" +
+                                "\tdisplayMethod() -> отображает информацию о доступным методах в классе DetentionCells.\n" +
+                                "}"
                 );
         return;
     }

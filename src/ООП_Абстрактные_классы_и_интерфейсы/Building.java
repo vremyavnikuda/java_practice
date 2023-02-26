@@ -99,4 +99,10 @@ public abstract class Building {
 
         return;
     }
+
+    //toString -> метод
+    @Override
+    public String toString(){
+        return "";
+    }
 }

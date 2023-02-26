@@ -51,11 +51,7 @@ public class Main {
                 150
         );
         NYDP.displayInfo();
-        DetentionCells.checkFreePlace();
-        DetentionCells.removeInmateFhCell(
-                4,
-                8
-        );
 
+        NYDP.displayMethod();
     }
 }

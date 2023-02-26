@@ -177,6 +177,23 @@ public class DetentionCells extends PoliceDepartment {
     }
     @Override
     public void displayMethod(){
+        System.out.println
+                (
+                        "{"+
 
+                                "DetentionCells -> наследует свойства и методы от класса PoliceDepartment\n"
+                                +"{\n\t int[] remandPrison -> Камеры предварительного заключения представлены в виде одномерного массива.\n"+
+                                "\tdisplayInfo() -> отображает информацию о классе.\n"+
+                                "\tcheckFreePlace() -> метод проверяет если свободные камеры в DetentionCells.\n"+
+                                "\tsaveRemandPrisonFiles() -> метод сохраняет информацию о статусе камер в -> PrisonData.txt\n"+
+                                "\t\t Путь сохранения -> E:\\java_practice\\src\\ООП_Абстрактные_классы_и_интерфейсы\\Police\\PrisonData.txt\n"+
+                                "\taddInmateToCells() -> метод добавления заключенного в камеру.\n"+
+                                "\tremoveInmateFhCell(int numberCell, int numberConcluded) -> данный метод убирает заключенного из камеры, имеет входные аргументы в виде:\n"+
+                                "\t\tint numberCell -> номер камеры.\n"+
+                                "\t\tint numberConcluded -> кол-во заключенных которые необъодимо убрать.\n"+
+                                "\tdisplayMethod() -> отображает информацию о доступным методах в классе DetentionCells.\n"+
+                        "}"
+                );
+        return;
     }
 }

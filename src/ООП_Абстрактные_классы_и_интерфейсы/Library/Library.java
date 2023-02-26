@@ -1,5 +1,6 @@
 package ООП_Абстрактные_классы_и_интерфейсы.Library;
 import ООП_Абстрактные_классы_и_интерфейсы.Building;
+
 import java.time.LocalTime;
 /*
     Реализовать метод отображения класса
@@ -123,6 +124,7 @@ public class Library extends Building {
                         \tметод displayInfo() -> отображает информацию о классе Library -> переопределение метода класса Building displayInfo().
                         \tметод displayMethod() -> Доступные методы для объектов созданных данным классом."""
         );
+        return;
     }
 }
 

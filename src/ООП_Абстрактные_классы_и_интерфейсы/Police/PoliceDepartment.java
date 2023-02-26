@@ -5,6 +5,8 @@ import ООП_Абстрактные_классы_и_интерфейсы.Buildi
 //PoliceDepartment
 public class PoliceDepartment extends Building {
 
+
+
     //int policeOfficers -> кол-во офицеров в PoliceDepartment
     private int policeOfficers;
 
@@ -99,7 +101,18 @@ public class PoliceDepartment extends Building {
     //метод displayMethod() -> Доступные методы для объектов созданных данным классом
     @Override
     public void displayMethod(){
-
+        System.out.println("{"+"}");
+        return;
+    }
+    @Override
+    public String toString() {
+        return "PoliceDepartment{" +
+                "" +
+                "policeOfficers=" + policeOfficers +
+                ", carDepartment=" + carDepartment +
+                ", numPreDetentionCells="+numPreDetentionCells+
+                ", numPeopleCameraDesigned="+numPeopleCameraDesigned +
+                '}';
     }
 }
 

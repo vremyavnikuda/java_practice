@@ -1,7 +1,5 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
-import java.util.Scanner;
-
 //HighRiseBuilding
 public class HighRiseBuilding extends Building {
 
@@ -118,5 +116,6 @@ public class HighRiseBuilding extends Building {
                         \tметод tallBuilding() -> Это здание является высотным ?
                         \tметод displayInfo() -> отображение информации о классе HighRiseBuilding -> переопределение метода.
                         \tметод displayMethod() -> -> Доступные методы для объектов созданных данным классом.""");
+        return;
     }
 }

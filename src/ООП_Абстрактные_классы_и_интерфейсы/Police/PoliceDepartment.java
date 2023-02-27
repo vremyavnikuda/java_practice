@@ -92,7 +92,6 @@ public class PoliceDepartment extends Building {
         System.out.println("\t" + "Количество камер предварительного заключения в департаменте: " + getNumPreDetentionCells());
         System.out.println("\t" + "На сколько заключенных рассчитана камера: " + getNumPeopleCameraDesigned());
         System.out.println("\t" + "Сколько заключенных может содержать департамент: " + (getNumPreDetentionCells() * getNumPeopleCameraDesigned()));
-        //System.out.println(DetentionCells.checkFreePlace());
         return null;
     }
 

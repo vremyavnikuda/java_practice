@@ -1,8 +1,8 @@
 package ООП_Абстрактные_классы_и_интерфейсы;
 
 import ООП_Абстрактные_классы_и_интерфейсы.Library.Library;
-import ООП_Абстрактные_классы_и_интерфейсы.Police.DetentionCells;
 import ООП_Абстрактные_классы_и_интерфейсы.Police.PoliceDepartment;
+import ООП_Абстрактные_классы_и_интерфейсы.ShoppingCenter.ShoppingCenter;
 
 import java.io.IOException;
 
@@ -52,5 +52,22 @@ public class Main {
         );
         NYDP.displayInfo();
         NYDP.displayMethod();
+        ShoppingCenter shoppingCenter = new ShoppingCenter(
+                "ТРЦ Афимолл",
+                "Пресненская набережная, 2",
+                2008,
+                "David Adjaye",
+                false
+        );
+
+        // Устанавливаем значения свойств объекта
+        shoppingCenter.setNumStores(200);
+        shoppingCenter.setFloorNumber(4);
+        shoppingCenter.setParkingShoppingCenter(true);
+        shoppingCenter.setSecurityShoppingCenter(true);
+
+        // Выводим информацию о здании
+        shoppingCenter.displayInfo();
+        shoppingCenter.displayMethod();
     }
 }

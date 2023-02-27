@@ -61,8 +61,12 @@ public class ShoppingCenter extends Building {
     }
 
     //get/set parkingShoppingCenter -> есть ли парковка в ShoppingCenter
-    public boolean isParkingShoppingCenter() {
-        return parkingShoppingCenter;
+    public String isParkingShoppingCenter() {
+        if (parkingShoppingCenter==true){
+            return "Да";
+        }else {
+            return "Нет";
+        }
     }
 
     public void setParkingShoppingCenter(boolean parkingShoppingCenter) {
@@ -70,8 +74,12 @@ public class ShoppingCenter extends Building {
     }
 
     //get/set securityShoppingCenter -> наличие службы охраны и безопасности
-    public boolean isSecurityShoppingCenter() {
-        return securityShoppingCenter;
+    public String isSecurityShoppingCenter() {
+        if (securityShoppingCenter==true){
+            return "Да";
+        }else {
+            return "Нет";
+        }
     }
 
     public void setSecurityShoppingCenter(boolean securityShoppingCenter) {

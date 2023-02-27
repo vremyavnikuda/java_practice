@@ -60,14 +60,17 @@ public class University extends Building {
     public int getFacultiesUniversity() {
         return facultiesUniversity;
     }
-
     public void setFacultiesUniversity(int facultiesUniversity) {
         this.facultiesUniversity = facultiesUniversity;
     }
 
     //private boolean docmitoryUniversity -> Наличие общежития
-    public boolean isDocmitoryUniversity() {
-        return docmitoryUniversity;
+    public String isDocmitoryUniversity() {
+        if (docmitoryUniversity){
+            return "Да";
+        }else {
+            return "Нет";
+        }
     }
 
     public void setDocmitoryUniversity(boolean docmitoryUniversity) {
@@ -75,8 +78,12 @@ public class University extends Building {
     }
 
     // private boolean sportFacilitiesUniversity -> Наличие спортивных объектов
-    public boolean isSportFacilitiesUniversity() {
-        return sportFacilitiesUniversity;
+    public String isSportFacilitiesUniversity() {
+        if (sportFacilitiesUniversity){
+            return "Да";
+        }else{
+            return "Нет";
+        }
     }
 
     public void setSportFacilitiesUniversity(boolean sportFacilitiesUniversity) {
@@ -84,10 +91,13 @@ public class University extends Building {
     }
 
     //private boolean medicalCenterUniversity -> Наличие медицинского центра
-    public boolean isMedicalCenterUniversity() {
-        return medicalCenterUniversity;
+    public String isMedicalCenterUniversity() {
+        if (medicalCenterUniversity){
+            return "Да";
+        }else{
+            return "Нет";
+        }
     }
-
     public void setMedicalCenterUniversity(boolean medicalCenterUniversity) {
         this.medicalCenterUniversity = medicalCenterUniversity;
     }
@@ -102,6 +112,27 @@ public class University extends Building {
                 ", medicalCenterUniversity=" + medicalCenterUniversity +
                 '}';
     }
-
+    @Override
+    public void displayMethod(){
+        System.out.println(
+                "{\n" +
+                        "\tnumStudentsUniversity:\n" +
+                        "\t\tgetNumStudentsUniversity()\n" +
+                        "\t\tsetNumStudentsUniversity()\n" +
+                        "\tfacultiesUniversity:\n" +
+                        "\t\tgetFacultiesUniversity()\n" +
+                        "\t\tsetFacultiesUniversity()\n" +
+                        "\tdocmitoryUniversity:\n" +
+                        "\t\tisDocmitoryUniversity()\n" +
+                        "\t\tsetDocmitoryUniversity()\n" +
+                        "\tsportFacilitiesUniversity:\n" +
+                        "\t\tisSportFacilitiesUniversity()\n" +
+                        "\t\tsetSportFacilitiesUniversity()\n" +
+                        "\tmedicalCenterUniversity:\n" +
+                        "\t\tisMedicalCenterUniversity()\n" +
+                        "\t\tsetMedicalCenterUniversity()\n"
+                        + "}");
+        return;
+    }
 }
 

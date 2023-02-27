@@ -18,6 +18,7 @@ public class ShoppingCenter extends Building {
     //boolean securityShoppingCenter -> наличие службы охраны и безопасности
     private boolean securityShoppingCenter;
 
+
     public ShoppingCenter(
             String titleBuildeing,
             String addressBuildeing,
@@ -77,15 +78,47 @@ public class ShoppingCenter extends Building {
         this.securityShoppingCenter = securityShoppingCenter;
     }
 
-    //TODO
-    //Методы
     @Override
     public String toString() {
-        return "";
+        return "ShoppingCenter{" +
+                "numStores=" + numStores +
+                ", floorNumber=" + floorNumber +
+                ", parkingShoppingCenter=" + parkingShoppingCenter +
+                ", securityShoppingCenter=" + securityShoppingCenter +
+                '}';
     }
 
     @Override
-    public void displayMethod() {
+    public void displayMethod(){
+            System.out.println(
+                "{\n" +
+                    "\tnumStores:\n" +
+                    "\t\tgetNumStores()\n" +
+                    "\t\tsetNumStores\n" +
+                    "\tfloorNumber:\n" +
+                    "\t\tgetFloorNumber()\n" +
+                    "\t\tsetFloorNumber()\n" +
+                    "\tparkingShoppingCenter:\n" +
+                    "\t\tisParkingShoppingCenter()\n" +
+                    "\t\tsetParkingShoppingCenter()\n" +
+                    "\tsecurityShoppingCenter:\n" +
+                    "\t\tisSecurityShoppingCenter()\n" +
+                    "\t\tsetSecurityShoppingCenter()\n"
+                + "}");
         return;
+    }
+
+    @Override
+    public Runnable displayInfo(){
+        System.out.println("Здание: " + getTitleBuildeing());
+        System.out.println("\t" + "Адрес: " + getAddressBuildeing());
+        System.out.println("\t" + "Год постройки: " + getYear_of_constructionBuildeing());
+        System.out.println("\t" + "Имя архитектора: " + getName_architectBuildeing());
+        System.out.println("\t" + "Культурное наследие: " + isCultural_monumentBuildeing());
+        System.out.println("\t" + "Количество магазинов в Shopping Center: " + getNumStores());
+        System.out.println("\t" + "Количество этажей в ShoppingCenter : " + getFloorNumber() );
+        System.out.println("\t" + "Наличие собственной парковки в : " + isParkingShoppingCenter());
+        System.out.println("\t" + "Наличие собственной службы безопасности : " + isSecurityShoppingCenter());
+        return null;
     }
 }

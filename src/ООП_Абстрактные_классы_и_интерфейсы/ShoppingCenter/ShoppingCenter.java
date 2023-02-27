@@ -62,7 +62,7 @@ public class ShoppingCenter extends Building {
 
     //get/set parkingShoppingCenter -> есть ли парковка в ShoppingCenter
     public String isParkingShoppingCenter() {
-        if (parkingShoppingCenter==true){
+        if (parkingShoppingCenter){
             return "Да";
         }else {
             return "Нет";
@@ -75,7 +75,7 @@ public class ShoppingCenter extends Building {
 
     //get/set securityShoppingCenter -> наличие службы охраны и безопасности
     public String isSecurityShoppingCenter() {
-        if (securityShoppingCenter==true){
+        if (securityShoppingCenter){
             return "Да";
         }else {
             return "Нет";

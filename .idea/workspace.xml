@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a15dec7d-44d4-4bc8-a76b-b78411709fdd" name="Changes" comment="add Main.java&#10;add Building&#10;add class (Library,House,PoliceDepartment,University,ShoppingCenter,HighRiseBuilding) extends Building">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ar_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ar_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2KakhzyZ4gWwS1zfwRDB7fmASQJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -63,9 +63,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -73,7 +73,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/andrew/repository/java_practice",
+    "last_opened_file_path": "/home/andrew/repository/dotfiles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,6 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Find_avarageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_offer_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java_offer_task" />
+      <option name="MAIN_CLASS_NAME" value="java_offer_task.Find_avarageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_practice" />
       <extension name="coverage">
@@ -141,8 +156,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_offer_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java_offer_task" />
+      <option name="MAIN_CLASS_NAME" value="java_offer_task.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Find_avarageTest" />
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="Application.ООП_Абстрактные_классы_и_интерфейсы.Main" />
         <item itemvalue="Application.Main" />
@@ -203,7 +235,8 @@
       <workItem from="1677385979877" duration="12140000" />
       <workItem from="1677390339901" duration="780000" />
       <workItem from="1677469432369" duration="7738000" />
-      <workItem from="1693922566357" duration="1766000" />
+      <workItem from="1693922566357" duration="2442000" />
+      <workItem from="1694005936137" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

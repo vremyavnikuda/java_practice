@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class variable1 {
 	public static void main(String[] args) {
+		scannerInt();
+		work_1();
+		work_2();
+		square_and_perimeter();
+		nextEven();
 		int a = 5;
 		double b = 0.4;
 
@@ -11,14 +16,11 @@ public class variable1 {
 		System.out.println(a - b);
 		System.out.println(a * b);
 		System.out.println(a / b);
-		/*
-		scannerInt();
-		work_1();
-		work_2();
-		square_and_perimeter();
-		nextEven();
-		 */
 		costOfPurchase();
+		lastDigit();
+		sumDigits();
+		MKAD();
+		Snail();
 	}
 
 	private static void scannerInt() {
@@ -71,7 +73,48 @@ public class variable1 {
 		int totalCost_a = cost_a * n;
 		int a_all = totalCost_a / 100;
 		int b_all = totalCost_a % 100;
-		System.out.println(a_all+" "+b_all);
+		System.out.println(a_all + " " + b_all);
+	}
+
+	//The last digit
+	private static void lastDigit() {
+		Scanner lastDigitReader = new Scanner(System.in);
+		int n = lastDigitReader.nextInt();
+
+		int lastDigit = n % 10;
+		System.out.println(lastDigit);
+	}
+
+	// Sum of digits
+	private static void sumDigits() {
+		Scanner sumDigitReader = new Scanner(System.in);
+		int sumNumbers = sumDigitReader.nextInt();
+
+		int one = sumNumbers / 100;
+		int two = (sumNumbers % 100) / 10;
+		int three = sumNumbers % 10;
+
+		System.out.println(one + two + three);
+	}
+
+	//МКАД
+	private static void MKAD() {
+		Scanner sc = new Scanner(System.in);
+		int v = sc.nextInt();
+		int t = sc.nextInt();
+		int s = v * t;
+		System.out.println((109 + s % 109) % 109);
+	}
+
+	// Улитка
+	private static void Snail() {
+		Scanner sc = new Scanner(System.in);
+
+		int h = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+
+		System.out.println(((h - b) + (a - b) - 1) / (a - b));
 	}
 }
 

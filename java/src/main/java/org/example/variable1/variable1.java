@@ -16,9 +16,9 @@ public class variable1 {
 		work_1();
 		work_2();
 		square_and_perimeter();
-		 */
 		nextEven();
-
+		 */
+		costOfPurchase();
 	}
 
 	private static void scannerInt() {
@@ -49,15 +49,29 @@ public class variable1 {
 		Scanner readerNumbers = new Scanner(System.in);
 		int a = readerNumbers.nextInt();
 		int b = readerNumbers.nextInt();
-		System.out.println(a*b);
-		System.out.println((a+b)*2);
+		System.out.println(a * b);
+		System.out.println((a + b) * 2);
 	}
 
 	//Next even
 	private static void nextEven() {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
-		System.out.println(n+2-(n%2));
+		System.out.println(n + 2 - (n % 2));
+	}
+
+	//Cost of purchase
+	private static void costOfPurchase() {
+		Scanner priceReader = new Scanner(System.in);
+		int a = priceReader.nextInt();
+		int b = priceReader.nextInt();
+		int n = priceReader.nextInt();
+
+		int cost_a = a * 100 + b;
+		int totalCost_a = cost_a * n;
+		int a_all = totalCost_a / 100;
+		int b_all = totalCost_a % 100;
+		System.out.println(a_all+" "+b_all);
 	}
 }
 

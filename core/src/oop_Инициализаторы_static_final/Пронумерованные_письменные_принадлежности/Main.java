@@ -1,7 +1,5 @@
 package oop_Инициализаторы_static_final.Пронумерованные_письменные_принадлежности;
 
-import java.awt.*;
-
 public class Main {
     public static void main(String[] args) {
 

@@ -17,8 +17,10 @@ public class WALLE_1 {
 		task10();
 		task11();
 		task12();
-		*/
 		task13();
+		task14();
+		*/
+		task15();
 	}
 
 	// task1
@@ -201,5 +203,33 @@ public class WALLE_1 {
 		int g = sc.nextInt();
 
 		System.out.println((h*4)+(g*2));
+	}
+
+	//task14
+	private static void task14(){
+		Scanner sc =new Scanner(System.in);
+
+		//x - скорость ВАЛЛ-И
+		int x = sc.nextInt();
+		//y - скорость ЕВЫ
+		int y = sc.nextInt();
+		//t - время ВАЛЛ-И
+		int t = sc.nextInt();
+		//m - время ЕВЫ
+		int m = sc.nextInt();
+
+		//сколько проехал валли
+		int distance_valli= x*t;
+		//сколько проехала ева
+		int distance_eva=y*m;
+		System.out.println(distance_valli+distance_eva);
+	}
+
+	//task15
+	private static void task15(){
+		Scanner sc = new Scanner(System.in);
+
+		int x = sc.nextInt();
+		System.out.println((x+1)+"-"+(x+2)+"-"+(x+3));
 	}
 }

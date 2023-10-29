@@ -14,8 +14,11 @@ public class WALLE_1 {
 		task7();
 		task8();
 		task9();
-		*/
 		task10();
+		task11();
+		task12();
+		*/
+		task13();
 	}
 
 	// task1
@@ -172,5 +175,31 @@ public class WALLE_1 {
 		//v - скорость
 		int v = sc.nextInt();
 
+		double time= (double)s/v;
+		System.out.println(time);
+	}
+
+	//task12
+	private static void task12(){
+		Scanner sc =new Scanner(System.in);
+
+		//n - количество слов
+		int n = sc.nextInt();
+		//d - количество дней
+		int d = sc.nextInt();
+
+		System.out.println(n*d);
+	}
+
+	//task13
+	private static void task13(){
+		Scanner sc =new Scanner(System.in);
+
+		//h - количество лошадей
+		int h = sc.nextInt();
+		//g - количество гусей
+		int g = sc.nextInt();
+
+		System.out.println((h*4)+(g*2));
 	}
 }

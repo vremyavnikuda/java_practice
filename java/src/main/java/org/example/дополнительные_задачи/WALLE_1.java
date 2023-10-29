@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class WALLE_1 {
 	public static void main(String[] args) {
-		/*
+
 		task1();
 		task2();
 		task3();
@@ -19,7 +19,6 @@ public class WALLE_1 {
 		task12();
 		task13();
 		task14();
-		*/
 		task15();
 	}
 

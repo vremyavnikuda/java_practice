@@ -5,13 +5,17 @@ import java.util.Scanner;
 public class conditional_operator {
 	public static void main(String[] args) {
 		/*
+		GreaterOf_3();
 		track();
 		whyMore();
 		task1();
 		task2();
 		task3();
-		*/
 		task4();
+		strangeClock();
+		LeapYear();
+		*/
+		twoEqualLines();
 	}
 
 	//Track
@@ -99,12 +103,53 @@ public class conditional_operator {
 		int m = sc.nextInt();
 		int x = sc.nextInt();
 
-
-		int secondsPassed=h *3600+m*60;
-		if (secondsPassed<=x){
+		if ((h * 60 + m) * 60 >= x) {
 			System.out.println("Успел");
-		}else {
+		} else {
 			System.out.println("Опоздал");
+		}
+	}
+
+	//Greater of 3
+	private static void GreaterOf_3() {
+		Scanner sc = new Scanner(System.in);
+
+		int number1 = sc.nextInt();
+		int number2 = sc.nextInt();
+		int number3 = sc.nextInt();
+
+		int max = Math.max(Math.max(number1, number2), number3);
+		System.out.println(max);
+	}
+
+	//Leap Year.
+	private static void LeapYear() {
+		Scanner sc = new Scanner(System.in);
+
+		int year = sc.nextInt();
+
+		boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+
+		if (isLeapYear) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
+	}
+
+	//Two equal lines
+	private static void twoEqualLines() {
+		Scanner scanner = new Scanner(System.in);
+
+		String string1 = scanner.nextLine();
+		String string2 = scanner.nextLine();
+		String string3 = scanner.nextLine();
+
+		// Проверяем, есть ли две равные строки
+		if ((string1.equals(string2) && !string2.equals(string3)) || (string2.equals(string3) && !string3.equals(string1)) || (string3.equals(string1) && !string1.equals(string2))) {
+			System.out.print("Yes");
+		} else {
+			System.out.print("No");
 		}
 	}
 }

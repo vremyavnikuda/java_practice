@@ -9,8 +9,9 @@ public class conditional_operator {
 		whyMore();
 		task1();
 		task2();
-		*/
 		task3();
+		*/
+		task4();
 	}
 
 	//Track
@@ -57,27 +58,53 @@ public class conditional_operator {
 		String line1 = sc.nextLine();
 		String line2 = sc.nextLine();
 
-		if (line.equals(line1)&&line2.equals(line)) {
+		if (line.equals(line1) && line2.equals(line)) {
 			System.out.println("Yes");
-		}else {
+		} else {
 			System.out.println("No");
 		}
 	}
 
 	//task3
-	private static void task3(){
+	private static void task3() {
 		Scanner sc = new Scanner(System.in);
 
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 
-		if (b==0){
+		if (b == 0) {
 			System.out.println("Error");
-		}else {
-			System.out.println(a/b);
+		} else {
+			System.out.println(a / b);
 		}
 	}
 
 	//task4
-	
+	private static void task4() {
+		Scanner sc = new Scanner(System.in);
+
+		int i = sc.nextInt();
+		if (i - 10 > i / 2) {
+			System.out.println(i - 10);
+		} else {
+			System.out.println(i / 2);
+		}
+	}
+
+	//Strange clock
+	private static void strangeClock() {
+		Scanner sc = new Scanner(System.in);
+
+		int h = sc.nextInt();
+		int m = sc.nextInt();
+		int x = sc.nextInt();
+
+
+		int secondsPassed=h *3600+m*60;
+		if (secondsPassed<=x){
+			System.out.println("Успел");
+		}else {
+			System.out.println("Опоздал");
+		}
+	}
 }

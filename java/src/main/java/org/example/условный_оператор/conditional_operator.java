@@ -14,8 +14,10 @@ public class conditional_operator {
 		task4();
 		strangeClock();
 		LeapYear();
-		*/
 		twoEqualLines();
+		Chocolate();
+		*/
+		swimmingPool();
 	}
 
 	//Track
@@ -150,6 +152,54 @@ public class conditional_operator {
 			System.out.print("Yes");
 		} else {
 			System.out.print("No");
+		}
+	}
+
+	//Chocolate
+	private static void Chocolate() {
+		Scanner sc = new Scanner(System.in);
+		//n,m,k
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int k = sc.nextInt();
+
+
+		if (k < n * m && ((k % n == 0) || (k % m == 0))) {
+			System.out.println("YES");
+		} else {
+			System.out.println("NO");
+		}
+	}
+
+	//Yasha is swimming in the pool
+	private static void swimmingPool() {
+		Scanner sc = new Scanner(System.in);
+
+		//Программа получает на вход числа N, M, x, y.
+		int N = sc.nextInt();
+		int M = sc.nextInt();
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+
+		int l;
+		int s;
+		if (N < M) {
+			l = M;
+			s = N;
+		} else {
+			l = N;
+			s = M;
+		}
+		int a = l - y;
+		int b = s - x;
+		if (x < a && x < y && x < b) {
+			System.out.print(x);
+		} else if (y < x && y < a && y < b) {
+			System.out.print(y);
+		} else if (a < x && a < y && a < b)
+			System.out.print(a);
+		else {
+			System.out.print(b);
 		}
 	}
 }

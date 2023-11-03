@@ -11,8 +11,10 @@ public class conditional_operator_A {
 		Equation1();
 		Equation2();
 		Equation3();
-		*/
 		Point1();
+		Point2();
+		*/
+		Point3();
 	}
 
 	private static void Temperature() {
@@ -104,7 +106,7 @@ public class conditional_operator_A {
 			if (b == 0) {
 				if (c == 0) {
 					System.out.println("inf");
-				}else {
+				} else {
 					System.out.println(0);
 				}
 			} else {
@@ -125,19 +127,47 @@ public class conditional_operator_A {
 	}
 
 	//Point 1
-	private static void Point1(){
-		Scanner sc=new Scanner (System.in);
+	private static void Point1() {
+		Scanner sc = new Scanner(System.in);
 
-		double x=sc.nextDouble();
-		double y= sc.nextDouble();
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
 
 		sc.close();
 
-		if (y > 2 * x){
+		if (y > 2 * x) {
 			System.out.println("Yes");
-		}else{
+		} else {
 			System.out.println("No");
 		}
+	}
+
+	//Point 2
+	private static void Point2() {
+		Scanner sc = new Scanner(System.in);
+
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+		sc.close();
+
+		if (y < (3 * x) & y > (2 * x)) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
+	}
+
+	//point 3
+	private static void Point3() {
+		Scanner sc =new Scanner(System.in);
+
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+
+		sc.close();
+
+		if ()
+
 	}
 }
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class conditional_operator_A {
 	public static void main(String[] args) {
-		/*
+
 		Temperature();
 		numberOfDigits();
 		numberOfDigits_1();
@@ -14,8 +14,9 @@ public class conditional_operator_A {
 		Point1();
 		Point2();
 		Point3();
-		*/
 		Point4();
+		Point5();
+		Point6();
 	}
 
 	private static void Temperature() {
@@ -187,6 +188,38 @@ public class conditional_operator_A {
 			System.out.println("Yes");
 		} else {
 			System.out.println("No");
+		}
+	}
+
+	//point 5
+	private static void Point5() {
+		Scanner sc = new Scanner(System.in);
+
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+		sc.close();
+
+		if ((y * y + x * x < 5) && (x * x - 3 > y) && (0.5 * x - 1) < y) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
+	}
+
+	// point 6
+	private static void Point6() {
+		Scanner sc = new Scanner(System.in);
+
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+
+		sc.close();
+
+		if ((y > 0.5 * x - 1) && (y < x * x - 3) && (y * y < 5 - x * x) || (-2 > y && y > -3 && -1 < x && x < 1)) {
+			System.out.print("Yes");
+		} else {
+			System.out.print("No");
+
 		}
 	}
 }

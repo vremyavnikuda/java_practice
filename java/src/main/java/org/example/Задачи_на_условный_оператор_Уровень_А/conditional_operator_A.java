@@ -13,8 +13,9 @@ public class conditional_operator_A {
 		Equation3();
 		Point1();
 		Point2();
-		*/
 		Point3();
+		*/
+		Point4();
 	}
 
 	private static void Temperature() {
@@ -159,15 +160,34 @@ public class conditional_operator_A {
 
 	//point 3
 	private static void Point3() {
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
 		double x = sc.nextDouble();
 		double y = sc.nextDouble();
 
 		sc.close();
 
-		if ()
+		if (((x * x - 2 * x - 3) < y) & ((x / 2) > y)) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
+	}
 
+	//point 4
+	private static void Point4() {
+		Scanner sc = new Scanner(System.in);
+
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+
+		sc.close();
+
+		if ((y * y) + (x * x) < 5 && ((x * x) - 3) > y) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
 	}
 }
 

@@ -102,7 +102,7 @@
       <recent name="ООП_Абстрактные_классы_и_интерфейсы" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop_Инициализаторы_static_final.Письменные_принадлежности_по_умолчанию.Main" />
       <module name="java_practice" />
@@ -249,6 +249,9 @@
       <workItem from="1698461468540" duration="355000" />
       <workItem from="1698461836184" duration="304000" />
       <workItem from="1698462153850" duration="584000" />
+      <workItem from="1699201567735" duration="13000" />
+      <workItem from="1699201643558" duration="55000" />
+      <workItem from="1699201710330" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="ignored">
       <created>1674220821166</created>

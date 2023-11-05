@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class conditional_operator {
 	public static void main(String[] args) {
-		/*
+
 		GreaterOf_3();
 		track();
 		whyMore();
@@ -16,7 +16,6 @@ public class conditional_operator {
 		LeapYear();
 		twoEqualLines();
 		Chocolate();
-		*/
 		swimmingPool();
 	}
 
